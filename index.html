@@ -1,166 +1,1654 @@
 <!DOCTYPE html>
 <!-- saved from url=(0014)about:internet -->
-<html lang="ja"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>progress_bar</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="generator" content="STUDIO">
-<meta name="robots" content="noindex, nofollow">
-<meta property="og:site_name" content="Green Tea">
-<meta property="og:title" content="progress_bar">
-<meta property="og:image" content="https://storage.googleapis.com/production-os-assets/assets/a879ed8b-42e2-4e81-957a-a3c180850399">
-<meta property="og:description" content="コーヒーカクテルにこだわる間借りバー">
-<meta name="description" content="コーヒーカクテルにこだわる間借りバー">
-<meta property="twitter:card" content="summary_large_image">
-<meta property="twitter:image" content="https://storage.googleapis.com/production-os-assets/assets/a879ed8b-42e2-4e81-957a-a3c180850399">
-<meta name="apple-mobile-web-app-title" content="progress_bar">
-<meta property="og:url" content="https://progress-bar.studio.site/">
-<link rel="icon" type="image/png" href="https://storage.googleapis.com/production-os-assets/assets/81da08b7-2cdb-4531-bd91-cd472ea7dd00">
-<link rel="apple-touch-icon" type="image/png" href="https://storage.googleapis.com/production-os-assets/assets/81da08b7-2cdb-4531-bd91-cd472ea7dd00">
-<link rel="canonical" href="https://progress-bar.studio.site/">
-<link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin=""><link rel="modulepreload" as="script" crossorigin="" href="./progress_bar_files/entry.62cd396d.js"><link rel="preload" as="style" href="./progress_bar_files/entry.6b81d913.css"><link rel="prefetch" as="image" type="image/svg+xml" href="https://progress-bar.studio.site/_nuxt/close_circle.c7480f3c.svg"><link rel="prefetch" as="image" type="image/svg+xml" href="https://progress-bar.studio.site/_nuxt/round_check.0ebac23f.svg"><link rel="prefetch" as="script" crossorigin="" href="https://progress-bar.studio.site/_nuxt/error-component.caa4230c.js"><link rel="stylesheet" href="./progress_bar_files/entry.6b81d913.css"><style>.container[data-v-453f3451]{transition:none}.container.page-enter[data-v-453f3451],.container.page-leave-to[data-v-453f3451]{opacity:0}.container.page-enter-active[data-v-453f3451],.container.page-leave-active[data-v-453f3451]{transition:.3s cubic-bezier(.4,.4,0,1)}</style><style>a[data-v-ac5d8026]{align-content:center;align-items:center;background-color:#fff;border-radius:4px;bottom:20px;box-shadow:0 2px 4px rgba(0,0,0,.14);display:flex;height:28px;justify-content:center;left:20px;padding:0 12px;perspective:300px;position:fixed;transition:0s linear;width:auto;z-index:2000}</style><script async="" defer="" data-h-load="" src="./progress_bar_files/typesquare.js"></script><style data-length="0" name="modal-test"></style><style type="text/css" rel="stylesheet" class="ts-font">@font-face {
-  font-family: 'しまなみ';
-  font-weight: Bold;
-  src: url(//wf.typesquare.com/3/tsst/dist/ja/ts?condition=89a343af01401f64a1a86cbee3e4421e&onetime_condition=&eid=5ad00062415c46a09fd67fd7ac1e024a&bw[name]=Chrome&bw[ftf]=0&bw[os]=Macintosh&location=progress-bar.studio.site%2F&fonts[id]=2007&fonts[str]=LC0uMDEyMzQ1OTpAQU1QVFtdX2FiY2VmZ2lsbW9wcnN0ecKp4oC74oiS44CB44CC44CM44CN44CS44GC44GE44GG44GK44GL44GM44GP44GR44GT44GU44GV44GX44GZ44Gb44Gf44Gg44Gh44Gm44Gn44Go44Gq44Gu44Gv44G%2B44G%2F44KB44KC44KJ44KK44KL44KM44KP44KS44KT44Ki44Kq44Kr44Kv44Kz44K544K744OG44OI44OL44OR44OS44OX44Oh44Ol44Oq44Or44Oz44O85LiB5LiW5Lqs5L2P5L2%2F5YCf5YyW5Yy65ZCI5ZGz5ZKM5ZWP5Za25Zyf5aCq5aSJ5bGL5bqP5bqX5oSP5omA5oyB5pel5pmC5pmu5puc5p2x5p2%2B5p6X5qWt5qW95q2p5q615rCX54SZ54WO55So55Sw55WM55uu56ug57Sw57aa6IO96Iul6JSt6Kan6Kmz6Kq%2F6LC36LGG6L686YCy6YO96ZaT77iO77yR77yS77yU77yY);
-}</style><style type="text/css" rel="stylesheet" class="ts-font">@font-face {
-  font-family: 'しまなみ';
-  font-weight: Bold;
-  src: url(//wf.typesquare.com/3/tsst/dist/ja/ts?condition=89a343af01401f64a1a86cbee3e4421e&onetime_condition=&eid=5ad00062415c46a09fd67fd7ac1e024a&bw[name]=Chrome&bw[ftf]=0&bw[os]=Macintosh&location=progress-bar.studio.site%2F&fonts[id]=2007&fonts[str]=LC0uMDEyMzQ1OTpAQU1QVFtdX2FiY2VmZ2lsbW9wcnN0ecKp4oC74oiS44CB44CC44CM44CN44CS44GC44GE44GG44GK44GL44GM44GP44GR44GT44GU44GV44GX44GZ44Gb44Gf44Gg44Gh44Gm44Gn44Go44Gq44Gu44Gv44G%2B44G%2F44KB44KC44KJ44KK44KL44KM44KP44KS44KT44Ki44Kq44Kr44Kv44Kz44K544K744OG44OI44OL44OR44OS44OX44Oh44Ol44Oq44Or44Oz44O85LiB5LiW5Lqs5L2P5L2%2F5YCf5YyW5Yy65ZCI5ZGz5ZKM5ZWP5Za25Zyf5aCq5aSJ5bGL5bqP5bqX5oSP5omA5oyB5pel5pmC5pmu5puc5p2x5p2%2B5p6X5qWt5qW95q2p5q615rCX54SZ54WO55So55Sw55WM55uu56ug57Sw57aa6IO96Iul6JSt6Kan6Kmz6Kq%2F6LC36LGG6L686YCy6YO96ZaT77iO77yR77yS77yU77yY);
-}</style></head>
-<body><div id="__nuxt"><div data-v-453f3451=""><div data-v-453f3451="" class="container"><style data-v-124a21fd="">.sd[data-s-534bb210-c418-418e-a8e5-2daf6d38d4f5] { align-content: flex-start; align-items: flex-start; background: rgba(0,0,0,0.0); bottom: auto; flex: none; flex-direction: column; flex-wrap: nowrap; height: auto; justify-content: flex-start; left: 0px; margin: 0 0 0 0; padding: 24px 24px 24px 24px; position: fixed; right: auto; top: 210px; width: auto; z-index: 4; max-width: 100%; }
-@media screen and (max-width: 768px){
-.sd[data-s-534bb210-c418-418e-a8e5-2daf6d38d4f5] { left: 0px; right: auto; width: 200px; max-width: 100%; }
-}
-@media screen and (max-width: 480px){
-.sd[data-s-534bb210-c418-418e-a8e5-2daf6d38d4f5] { display: none; }
-}.sd[data-s-420b321f-f568-4d18-a39a-fd4a6c080568] { color: #000000; font-family: var(--s-font-18b07931); font-size: 16px; font-weight: 400; height: auto; letter-spacing: 0.05em; margin: 0px 0px 0px 0px; padding: 12px 12px 12px 12px; text-align: center; width: auto; max-width: 100%; justify-content: center; }
-.sd[data-s-420b321f-f568-4d18-a39a-fd4a6c080568]:hover { background: rgba(47, 106, 2, 0.45); color: #FFFFFF; }
-@media screen and (max-width: 768px){
-.sd[data-s-420b321f-f568-4d18-a39a-fd4a6c080568] { font-size: 14px; }
-}.sd[data-s-69854ab0-9870-4317-9f19-5125240c38f5] { background: #000000; height: 50px; margin: 0px 0px 0px 21px; width: 1px; max-width: calc(100% - 21px); }.sd[data-s-3e45317a-ecb3-4f44-9806-8a1b1c2efa93] { color: #000000; font-family: var(--s-font-18b07931); font-size: 15px; font-weight: 400; height: auto; margin: 0px 0px 0px 0px; padding: 12px 12px 12px 12px; text-align: center; width: auto; max-width: 100%; justify-content: center; }
-.sd[data-s-3e45317a-ecb3-4f44-9806-8a1b1c2efa93]:hover { background: rgba(47, 106, 2, 0.45); color: #FFFFFF; }
-@media screen and (max-width: 768px){
-.sd[data-s-3e45317a-ecb3-4f44-9806-8a1b1c2efa93] { font-size: 14px; margin: 0px 0px 0px 0px; }
-}.sd[data-s-f3ab4d6d-d79e-40f5-91ed-f174f96563e9] { color: #000000; font-family: var(--s-font-18b07931); font-size: 15px; font-weight: 400; height: auto; margin: 0px 0px 0px 0px; padding: 12px 12px 12px 12px; text-align: center; width: auto; max-width: 100%; justify-content: center; }
-.sd[data-s-f3ab4d6d-d79e-40f5-91ed-f174f96563e9]:hover { background: rgba(47, 106, 2, 0.45); color: #FFFFFF; }
-@media screen and (max-width: 768px){
-.sd[data-s-f3ab4d6d-d79e-40f5-91ed-f174f96563e9] { font-size: 14px; margin: 0px 0px 0px 0px; }
-}.sd[data-s-3cfb6a57-7e9f-4ed1-affd-91ac9bc121eb] { color: #000000; font-family: var(--s-font-18b07931); font-size: 15px; font-weight: 400; height: auto; margin: 0px 0px 0px 0px; padding: 12px 12px 12px 12px; text-align: center; width: auto; max-width: 100%; justify-content: center; }
-.sd[data-s-3cfb6a57-7e9f-4ed1-affd-91ac9bc121eb]:hover { background: rgba(47, 106, 2, 0.45); color: #FFFFFF; }
-@media screen and (max-width: 768px){
-.sd[data-s-3cfb6a57-7e9f-4ed1-affd-91ac9bc121eb] { font-size: 14px; }
-}</style><!----><style data-v-124a21fd="">.sd[data-s-182cf3ee-87e5-4618-9245-de97ab114199] { align-content: flex-start; align-items: flex-start; background: rgba(0,0,0,0.0); flex: none; flex-direction: column; flex-wrap: nowrap; height: auto; justify-content: flex-start; width: 100%; max-width: 100%; }
-@media screen and (max-width: 480px){
-.sd[data-s-182cf3ee-87e5-4618-9245-de97ab114199] { align-content: flex-start; align-items: flex-start; flex: none; height: auto; }
-}.sd[data-s-18ce2ef9-895c-4f44-8bfd-cdc38ef26690] { align-content: center; align-items: center; background: #FFFFFF; flex: none; flex-direction: row; flex-wrap: nowrap; height: 368px; justify-content: center; overflow-x: visible; overflow-y: visible; width: 100%; max-width: 100%; }
-@media screen and (max-width: 480px){
-.sd[data-s-18ce2ef9-895c-4f44-8bfd-cdc38ef26690] { flex: none; height: 304px; width: 100%; max-width: 100%; }
-}.sd[data-s-4264457a-4894-4a93-b814-1f5b11766d6a] { align-content: center; align-items: center; flex-direction: column; flex-wrap: nowrap; height: 100%; justify-content: center; overflow-x: hidden; overflow-y: hidden; width: 100%; max-width: 100%; }.sd[data-s-458d60aa-8b82-4af1-bc1b-49b0e8cb2b49] { align-content: center; align-items: center; background: rgba(0,0,0,0.0); flex: none; flex-direction: column; flex-wrap: nowrap; height: auto; justify-content: center; margin: 0px 0px 0px 0px; padding: 4px 4px 4px 4px; width: auto; max-width: 100%; }.sd[data-s-a56340d2-f838-43a3-ab39-3fa569696c25] { background: #FFFFFF; flex: none; height: 1px; margin: 0px 0px 12px 0px; width: 100%; max-width: 100%; }.sd[data-s-903eaf4b-fbc4-4c35-9c5d-3db235131fef] { color: #FFFFFF; font-family: var(--s-font-18b07931); font-size: 20px; font-weight: 400; height: auto; letter-spacing: 0.05em; margin: 0px 0px 0px 0px; text-align: center; width: auto; max-width: 100%; justify-content: center; }.sd[data-s-ef81b5d0-4119-40c8-af62-8ffb909b5067] { background: #FFFFFF; flex: none; height: 1px; margin: 12px 0px 0px 0px; width: 100%; max-width: 100%; }.sd[data-s-2f190939-8e93-4dd9-869f-02e08db69743] { align-content: center; align-items: center; background: #fbfbfb; flex: none; flex-direction: column; flex-wrap: nowrap; height: auto; justify-content: space-between; margin: 0px 0px 0px 0px; overflow-x: visible; overflow-y: visible; padding: 64px 0px 24px 0px; width: 100%; max-width: 100%; }
-@media screen and (max-width: 480px){
-.sd[data-s-2f190939-8e93-4dd9-869f-02e08db69743] { flex: none; height: auto; padding: 56px 0px 24px 0px; width: 100%; }
-}.sd[data-s-25581c04-f4f6-4c11-ad12-301aa2a65910] { align-content: center; align-items: center; background: rgba(0,0,0,0.0); flex: none; flex-direction: column; flex-wrap: nowrap; height: auto; justify-content: flex-start; margin: 0px 40px 0px; width: 620px; max-width: calc(100% - 80px); }
-@media screen and (max-width: 480px){
-.sd[data-s-25581c04-f4f6-4c11-ad12-301aa2a65910] { flex: none; height: auto; }
-}.sd[data-s-534a92ba-07cb-432f-803c-fa689746686c] { align-content: center; align-items: center; background: rgba(0,0,0,0.0); flex: none; flex-direction: column; flex-wrap: nowrap; height: auto; justify-content: flex-start; margin: 0px 0px 0px 0px; padding: 24px; width: 100%; max-width: 100%; }
-@media screen and (max-width: 480px){
-.sd[data-s-534a92ba-07cb-432f-803c-fa689746686c] { align-content: center; align-items: center; padding: 16px; }
-}.sd[data-s-0e000373-b83b-49a6-ab6b-348cf3d95777] { color: #333; font-family: var(--s-font-18b07931); font-size: 18px; font-weight: 400; height: auto; letter-spacing: 0.05em; text-align: center; width: auto; max-width: 100%; justify-content: center; }
-@media screen and (max-width: 480px){
-.sd[data-s-0e000373-b83b-49a6-ab6b-348cf3d95777] { font-size: 18px; }
-}.sd[data-s-9f757f7b-da36-4c3a-bff3-9bb877e49f75] { align-content: center; align-items: center; background: rgba(0,0,0,0.0); flex: none; flex-direction: column; flex-wrap: nowrap; height: 117px; justify-content: flex-start; margin: 20px 0px 0px 0px; width: 100%; max-width: 100%; }
-@media screen and (max-width: 480px){
-.sd[data-s-9f757f7b-da36-4c3a-bff3-9bb877e49f75] { align-content: center; align-items: center; }
-}.sd[data-s-1a8f20e8-9cc9-4637-8613-33de17242580] { align-content: center; align-items: center; background: rgba(0,0,0,0.0); flex-direction: row; flex-wrap: nowrap; height: 40px; justify-content: center; overflow-x: hidden; overflow-y: hidden; width: 100%; max-width: 100%; }
-@media screen and (max-width: 480px){
-.sd[data-s-1a8f20e8-9cc9-4637-8613-33de17242580] { justify-content: center; overflow-x: hidden; overflow-y: hidden; }
-}.sd[data-s-db7c99b1-8285-4431-8826-72b2fbe6d12b] { color: #000000; font-family: var(--s-font-18b07931); font-size: 13px; font-weight: 400; height: auto; line-height: 1.6; margin: 0px 8px 0px 0px; text-align: left; width: auto; max-width: calc(100% - 8px); justify-content: flex-start; }
-@media screen and (max-width: 480px){
-.sd[data-s-db7c99b1-8285-4431-8826-72b2fbe6d12b] { font-size: 11px; }
-}.sd[data-s-d1893b7a-c1c5-46e1-a516-cb2b9d9ca5d5] { color: #2f6a02; font-family: var(--s-font-18b07931); font-size: 13px; font-weight: 400; height: auto; text-align: center; width: auto; max-width: 100%; justify-content: center; }
-@media screen and (max-width: 480px){
-.sd[data-s-d1893b7a-c1c5-46e1-a516-cb2b9d9ca5d5] { font-size: 11px; }
-}.sd[data-s-9b8f6a6c-4939-42a8-b52f-7e584e34c6a8] { align-content: center; align-items: center; background: rgba(0,0,0,0.0); flex-direction: row; flex-wrap: nowrap; height: 40px; justify-content: center; overflow-x: hidden; overflow-y: hidden; width: 100%; max-width: 100%; }
-@media screen and (max-width: 480px){
-.sd[data-s-9b8f6a6c-4939-42a8-b52f-7e584e34c6a8] { justify-content: center; overflow-x: hidden; overflow-y: hidden; }
-}.sd[data-s-1268db16-f7bc-452d-8eec-9ca4275c3de2] { color: #000000; font-family: var(--s-font-18b07931); font-size: 13px; font-weight: 400; height: auto; line-height: 1.6; margin: 0px 8px 0px 0px; text-align: left; width: auto; max-width: calc(100% - 8px); justify-content: flex-start; }
-@media screen and (max-width: 480px){
-.sd[data-s-1268db16-f7bc-452d-8eec-9ca4275c3de2] { font-size: 11px; }
-}.sd[data-s-7c02ec83-d807-4d21-8789-521ad9eeef82] { align-content: center; align-items: center; background: rgba(0,0,0,0.0); flex-direction: row; flex-wrap: nowrap; height: 40px; justify-content: center; overflow-x: hidden; overflow-y: hidden; width: 100%; max-width: 100%; }
-@media screen and (max-width: 480px){
-.sd[data-s-7c02ec83-d807-4d21-8789-521ad9eeef82] { justify-content: center; overflow-x: hidden; overflow-y: hidden; }
-}.sd[data-s-fbf715f9-6468-4817-9fe3-7fbeae6ef479] { color: #000000; font-family: var(--s-font-18b07931); font-size: 13px; font-weight: 400; height: auto; line-height: 1.6; margin: 0px 8px 0px 0px; padding: 0px 0px 0px 0px; text-align: left; width: auto; max-width: calc(100% - 8px); justify-content: flex-start; }
-@media screen and (max-width: 480px){
-.sd[data-s-fbf715f9-6468-4817-9fe3-7fbeae6ef479] { font-size: 11px; }
-}.sd[data-s-ab02c326-02fd-46b5-a840-94be80880f5e] { color: #2f6a02; font-family: var(--s-font-18b07931); font-size: 13px; font-weight: 400; height: auto; text-align: center; width: auto; max-width: 100%; justify-content: center; }
-@media screen and (max-width: 480px){
-.sd[data-s-ab02c326-02fd-46b5-a840-94be80880f5e] { font-size: 11px; }
-}.sd[data-s-b4fa3c8e-3a5e-4c52-aa5f-e83f2499e5d9] { align-content: center; align-items: center; background: rgba(0,0,0,0.0); flex: none; flex-direction: column; flex-wrap: nowrap; height: auto; justify-content: center; margin: 48px 0px 0px 0px; padding: 0px 0px 0px 0px; width: auto; max-width: 100%; }
-@media screen and (max-width: 480px){
-.sd[data-s-b4fa3c8e-3a5e-4c52-aa5f-e83f2499e5d9] { align-content: center; align-items: center; flex: none; height: auto; }
-}.sd[data-s-b35efeb6-7b94-4a91-bb8f-eb333e4f18bd] { color: #333; font-family: var(--s-font-18b07931); font-size: 10px; font-weight: 400; height: auto; text-align: center; width: auto; max-width: 100%; justify-content: center; }</style><!----><style data-v-124a21fd="">.sd[data-s-a031279e-e8fb-4207-9194-42fac0b464b3] { align-content: flex-start; align-items: flex-start; background: #fff; border-radius: 0; box-shadow: ; flex-direction: column; flex-wrap: nowrap; height: 100%; justify-content: flex-start; margin: 0 0 0 0; opacity: 1; padding: 0 0 0 0; width: 100%; max-width: 100%; }
-@media screen and (max-width: 480px){
-.sd[data-s-a031279e-e8fb-4207-9194-42fac0b464b3] { align-content: flex-start; align-items: flex-start; padding: 0 0 0 0; }
-}.sd[data-s-fc10ddac-b3ce-47dd-82fe-7687d5c83a3e] {  }.sd[data-s-c82c98db-59b4-4be2-a465-ed990840ba51] { align-content: center; align-items: center; flex: none; flex-direction: column; flex-wrap: nowrap; justify-content: center; padding: 0px; width: 100%; max-width: 100%; }.sd[data-s-a6ef9652-5c57-4ce5-8a86-153eea8734e6] { align-content: center; align-items: center; flex: none; flex-direction: column; flex-wrap: nowrap; height: 100vh; justify-content: center; margin: 0px 0px 0px 0px; overflow-x: visible; overflow-y: visible; padding: 0px 0px 0px 0px; width: 100%; max-width: 100%; }
-@media screen and (max-width: 768px){
-.sd[data-s-a6ef9652-5c57-4ce5-8a86-153eea8734e6] { justify-content: space-between; overflow-x: visible; overflow-y: visible; padding: 0px 0px 0px 0px; }
-}
-@media screen and (max-width: 480px){
-.sd[data-s-a6ef9652-5c57-4ce5-8a86-153eea8734e6] { flex: none; height: 88vh; padding: 88px 0px 0px 0px; width: 100%; max-width: 100%; }
-}.sd[data-s-2e42571d-8cf3-4aaf-87b1-46cd7432198d] { width: auto; height: auto; font-family: var(--s-font-18b07931); font-size: 64px; line-height: 1.4; font-weight: 400; text-align: center; color: #FFFFFF; max-width: 100%; justify-content: center; }.sd[data-s-52c30349-bd49-418b-9afd-62bf0a1eebe8] { align-content: center; align-items: center; background: #FFFFFF; flex: none; flex-direction: column; flex-wrap: nowrap; height: auto; justify-content: center; overflow-x: hidden; overflow-y: hidden; padding: 24px; width: 100%; max-width: 100%; }
-@media screen and (max-width: 768px){
-.sd[data-s-52c30349-bd49-418b-9afd-62bf0a1eebe8] { align-content: center; align-items: center; flex: none; height: auto; padding: 24px; }
-}
-@media screen and (max-width: 480px){
-.sd[data-s-52c30349-bd49-418b-9afd-62bf0a1eebe8] { flex: none; height: auto; padding: 0px 16px 0px; }
-}.sd[data-s-996cf4ea-7e17-499e-8b70-9d909fc8bd70] { color: #333; flex: none; font-family: var(--s-font-18b07931); font-size: 15px; font-weight: 400; height: auto; letter-spacing: 0.05em; line-height: 2.5; margin: 88px; padding: 0px 0px 0px 0px; text-align: left; width: 620px; max-width: calc(100% - 176px); justify-content: flex-start; }
-@media screen and (max-width: 768px){
-.sd[data-s-996cf4ea-7e17-499e-8b70-9d909fc8bd70] { margin: 88px; }
-}
-@media screen and (max-width: 480px){
-.sd[data-s-996cf4ea-7e17-499e-8b70-9d909fc8bd70] { flex: 1; font-size: 13px; height: auto; margin: 64px 0px 64px; max-width: 100%; }
-}.sd[data-s-2aed6e99-e70a-4dea-88b1-c22abcf2d3d0] { align-content: center; align-items: center; background: rgba(0,0,0,0.0); flex: none; flex-direction: column; flex-wrap: nowrap; height: auto; justify-content: flex-start; margin: 0px 0px 0px 0px; width: 100%; max-width: 100%; }
-@media screen and (max-width: 768px){
-.sd[data-s-2aed6e99-e70a-4dea-88b1-c22abcf2d3d0] { align-content: center; align-items: center; }
-}
-@media screen and (max-width: 480px){
-.sd[data-s-2aed6e99-e70a-4dea-88b1-c22abcf2d3d0] { align-content: center; align-items: center; background: #FFFFFF; flex: none; flex-direction: column; flex-wrap: nowrap; height: auto; }
-}.sd[data-s-929ef19f-b219-4a94-a9f5-4605f991a6d4] { align-content: center; align-items: center; background: #FFFFFF; flex: none; flex-direction: row; flex-wrap: nowrap; height: 368px; justify-content: center; overflow-x: visible; overflow-y: visible; width: 100%; max-width: 100%; }
-@media screen and (max-width: 480px){
-.sd[data-s-929ef19f-b219-4a94-a9f5-4605f991a6d4] { flex: none; height: 304px; width: 100%; max-width: 100%; }
-}.sd[data-s-a3f05963-0b54-4511-9f2f-ad5309ded3fb] { align-content: center; align-items: center; flex-direction: column; flex-wrap: nowrap; height: 100%; justify-content: center; overflow-x: hidden; overflow-y: hidden; width: 100%; max-width: 100%; }.sd[data-s-5d615036-cc3c-4113-a282-2b84a4c30c42] { align-content: center; align-items: center; background: rgba(0,0,0,0.0); flex: none; flex-direction: column; flex-wrap: nowrap; height: auto; justify-content: center; margin: 0px 0px 0px 0px; padding: 4px 4px 4px 4px; width: 92px; max-width: 100%; }.sd[data-s-093d3a00-bfb9-45b7-ab82-d404cc98d4e7] { background: #FFFFFF; flex: none; height: 1px; margin: 0px 0px 12px 0px; width: 100%; max-width: 100%; }.sd[data-s-36125e28-ce9f-4146-9818-06f2e1db75b4] { color: #FFFFFF; font-family: var(--s-font-18b07931); font-size: 20px; font-weight: 400; height: auto; letter-spacing: 0.05em; margin: 0px 0px 0px 0px; text-align: center; width: auto; max-width: 100%; justify-content: center; }.sd[data-s-7b51b475-7e0f-4f72-9f9c-608b7b02529d] { background: #FFFFFF; flex: none; height: 1px; margin: 12px 0px 0px 0px; width: 100%; max-width: 100%; }.sd[data-s-3e08098e-0e8c-49e1-a620-ff7c91159430] { color: #FFFFFF; font-family: var(--s-font-18b07931); font-size: 13px; font-weight: 400; height: auto; margin: 10px 0px 0px 0px; text-align: center; width: auto; max-width: 100%; justify-content: center; }.sd[data-s-c5cbf98d-6a8e-4195-97fc-4a10a7e30d32] { align-content: flex-start; align-items: flex-start; background: #FFFFFF; flex: none; flex-direction: column; flex-wrap: nowrap; height: auto; justify-content: flex-start; width: 100%; max-width: 100%; }
-@media screen and (max-width: 768px){
-.sd[data-s-c5cbf98d-6a8e-4195-97fc-4a10a7e30d32] { flex: none; height: auto; }
-}
-@media screen and (max-width: 480px){
-.sd[data-s-c5cbf98d-6a8e-4195-97fc-4a10a7e30d32] { background: rgba(0,0,0,0.0); flex: none; height: 1136px; width: 100%; max-width: 100%; }
-}.sd[data-s-e2445f92-2076-478f-8535-a7e9b4f69452] { align-content: center; align-items: center; background: #FFFFFF; flex: none; flex-direction: column; flex-wrap: nowrap; height: auto; justify-content: flex-start; width: 100%; max-width: 100%; }
-@media screen and (max-width: 768px){
-.sd[data-s-e2445f92-2076-478f-8535-a7e9b4f69452] { flex: none; height: auto; }
-}
-@media screen and (max-width: 480px){
-.sd[data-s-e2445f92-2076-478f-8535-a7e9b4f69452] { align-content: center; align-items: center; flex: none; height: 1136px; width: 100%; max-width: 100%; }
-}.sd[data-s-fcf6b297-a786-4f80-ba06-dd67047b5f7b] { align-content: center; align-items: center; background: #FFFFFF; flex: none; flex-direction: column; flex-wrap: nowrap; height: auto; justify-content: center; margin: 0px; padding: 96px 96px 96px; width: 100%; max-width: 100%; }
-@media screen and (max-width: 768px){
-.sd[data-s-fcf6b297-a786-4f80-ba06-dd67047b5f7b] { flex: none; height: auto; padding: 96px 0px 0px; }
-}
-@media screen and (max-width: 480px){
-.sd[data-s-fcf6b297-a786-4f80-ba06-dd67047b5f7b] { align-content: center; align-items: center; flex: none; height: auto; padding: 24px 0px 24px; }
-}.sd[data-s-6b435f37-171f-4e1e-90f9-9ffe293407ab] { align-content: center; align-items: center; background: #FFFFFF; flex-direction: row; flex-wrap: nowrap; height: 100%; justify-content: flex-start; overflow-x: visible; overflow-y: visible; width: 100%; max-width: 100%; }
-@media screen and (max-width: 480px){
-.sd[data-s-6b435f37-171f-4e1e-90f9-9ffe293407ab] { flex-direction: column-reverse; flex-wrap: nowrap; height: 100%; overflow-x: visible; overflow-y: visible; }
-}.sd[data-s-daff6a46-3836-47a9-94c9-2f22dff4770a] { align-content: flex-start; align-items: flex-start; background: rgba(0,0,0,0.0); flex: none; flex-direction: column; flex-wrap: nowrap; height: 100%; justify-content: center; padding: 0px 48px 24px 64px; width: 50%; max-width: 50%; }
-@media screen and (max-width: 768px){
-.sd[data-s-daff6a46-3836-47a9-94c9-2f22dff4770a] { padding: 0px 24px 24px 40px; }
-}
-@media screen and (max-width: 480px){
-.sd[data-s-daff6a46-3836-47a9-94c9-2f22dff4770a] { flex: 1; height: auto; justify-content: center; overflow-x: hidden; overflow-y: hidden; padding: 16px; width: 100%; max-width: 100%; }
-}.sd[data-s-402beeeb-90e0-46a3-8d17-ac66373f72f5] { color: #333; font-family: var(--s-font-18b07931); font-size: 28px; font-weight: 400; height: auto; text-align: center; width: auto; max-width: 100%; justify-content: center; }
-@media screen and (max-width: 480px){
-.sd[data-s-402beeeb-90e0-46a3-8d17-ac66373f72f5] { font-size: 24px; margin: 16px 0px 0px 0px; max-width: 100%; }
-}.sd[data-s-99adc706-821f-4e0b-8d2d-6e24721c48c9] { color: #333; flex: none; font-family: var(--s-font-18b07931); font-size: 15px; font-weight: 400; height: auto; line-height: 2.5; margin: 20px 0px 0px 0px; text-align: left; width: 100%; max-width: 100%; justify-content: flex-start; }
-@media screen and (max-width: 480px){
-.sd[data-s-99adc706-821f-4e0b-8d2d-6e24721c48c9] { font-size: 13px; }
-}.sd[data-s-2677ef0b-df09-4edf-aa85-19cc1b33043c] { align-content: flex-start; align-items: flex-start; background: rgba(0,0,0,0.0); flex: none; flex-direction: column; flex-wrap: nowrap; height: 100%; justify-content: flex-start; width: 50%; transform: translate(0px, 0px); max-width: 50%; }
-@media screen and (max-width: 480px){
-.sd[data-s-2677ef0b-df09-4edf-aa85-19cc1b33043c] { flex: none; height: 244px; width: 100%; max-width: 100%; }
-}.sd[data-s-8339f21c-0b4c-4f27-8e7b-9c393f490c37] { flex: none; height: 544px; width: 100%; max-width: 100%; }.sd[data-s-fb8959a8-14b8-4598-a848-e3b7cb515bbf] {  }</style><style data-v-124a21fd="">body { background: #fff; transition: background 0.5s cubic-bezier(0.4, 0.4, 0, 1); }</style><!----><div data-v-d9645d67="" data-v-453f3451="" class="TitleAnnouncer" aria-live="assertive">progress_bar 読み込まれました</div><!----><div data-v-453f3451=""><div class="modals"></div><div class="StudioCanvas" aria-hidden="false"><div data-s-a031279e-e8fb-4207-9194-42fac0b464b3="" class="sd appear"><header data-s-534bb210-c418-418e-a8e5-2daf6d38d4f5="" class="fixed sd appear"><a href="https://progress-bar.studio.site/#top" data-s-420b321f-f568-4d18-a39a-fd4a6c080568="" data-r-0_0_fc10ddac-b3ce-47dd-82fe-7687d5c83a3e_420b321f-f568-4d18-a39a-fd4a6c080568="" class="text sd appear">Top</a><div data-s-69854ab0-9870-4317-9f19-5125240c38f5="" class="sd appear"></div><a href="https://progress-bar.studio.site/#introduction" data-s-3e45317a-ecb3-4f44-9806-8a1b1c2efa93="" data-r-2_0_fc10ddac-b3ce-47dd-82fe-7687d5c83a3e_3e45317a-ecb3-4f44-9806-8a1b1c2efa93="" class="text sd appear">序章</a><a href="https://progress-bar.studio.site/#turn" data-s-f3ab4d6d-d79e-40f5-91ed-f174f96563e9="" data-r-3_0_fc10ddac-b3ce-47dd-82fe-7687d5c83a3e_f3ab4d6d-d79e-40f5-91ed-f174f96563e9="" class="text sd appear">メニュー</a><a href="https://progress-bar.studio.site/#conclusion" data-s-3cfb6a57-7e9f-4ed1-affd-91ac9bc121eb="" data-r-4_0_fc10ddac-b3ce-47dd-82fe-7687d5c83a3e_3cfb6a57-7e9f-4ed1-affd-91ac9bc121eb="" class="text sd appear">アクセス</a></header><main data-s-c82c98db-59b4-4be2-a465-ed990840ba51="" class="sd appear"><div id="top" data-s-a6ef9652-5c57-4ce5-8a86-153eea8734e6="" data-r-0_1_a6ef9652-5c57-4ce5-8a86-153eea8734e6="" class="image sd"><p data-s-2e42571d-8cf3-4aaf-87b1-46cd7432198d="" data-r-0_0_1_2e42571d-8cf3-4aaf-87b1-46cd7432198d="" class="text sd appear">progress_bar</p><style>.sd[data-r-0_1_a6ef9652-5c57-4ce5-8a86-153eea8734e6]:before { background-image: url("https://storage.googleapis.com/studio-design-asset-files/projects/YPqrpNX8W5/s-1569x1045_v-fms_webp_945d4840-b1f6-4668-b984-5200d64387d7.webp") }</style></div><div id="introduction" data-s-52c30349-bd49-418b-9afd-62bf0a1eebe8="" class="sd appear"><p data-s-996cf4ea-7e17-499e-8b70-9d909fc8bd70="" data-r-0_1_1_996cf4ea-7e17-499e-8b70-9d909fc8bd70="" class="text sd appear">progressとは進歩の意味。<br><br>「店をオープンしてもなお変わり続ける店でありたい」という気持ちを込め、間借りでオープンします。<br>これからも変化し続けるカクテルの世界をご堪能ください。</p></div><div id="turna" data-s-2aed6e99-e70a-4dea-88b1-c22abcf2d3d0="" class="sd appear"><div data-s-929ef19f-b219-4a94-a9f5-4605f991a6d4="" class="sd appear"><div data-s-a3f05963-0b54-4511-9f2f-ad5309ded3fb="" data-r-0_0_2_1_a3f05963-0b54-4511-9f2f-ad5309ded3fb="" class="image sd"><div data-s-5d615036-cc3c-4113-a282-2b84a4c30c42="" class="sd appear"><div data-s-093d3a00-bfb9-45b7-ab82-d404cc98d4e7="" class="sd appear"></div><h2 data-s-36125e28-ce9f-4146-9818-06f2e1db75b4="" data-r-1_0_0_0_2_1_36125e28-ce9f-4146-9818-06f2e1db75b4="" class="text sd appear">メニュー</h2><div data-s-7b51b475-7e0f-4f72-9f9c-608b7b02529d="" class="sd appear"></div></div><p data-s-3e08098e-0e8c-49e1-a620-ff7c91159430="" data-r-1_0_0_2_1_3e08098e-0e8c-49e1-a620-ff7c91159430="" class="text sd appear">※メニューの詳細はお店でご覧いただけます</p><style>.sd[data-r-0_0_2_1_a3f05963-0b54-4511-9f2f-ad5309ded3fb]:before { background-image: url("https://images.unsplash.com/photo-1541159701576-754a863fb57b?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjYzNDZ9") }</style></div></div><div data-s-c5cbf98d-6a8e-4195-97fc-4a10a7e30d32="" class="sd appear"><section id="turn" data-s-e2445f92-2076-478f-8535-a7e9b4f69452="" class="sd appear"><div data-s-fcf6b297-a786-4f80-ba06-dd67047b5f7b="" class="sd appear"><div data-s-6b435f37-171f-4e1e-90f9-9ffe293407ab="" class="sd appear"><div data-s-daff6a46-3836-47a9-94c9-2f22dff4770a="" class="sd appear"><h3 data-s-402beeeb-90e0-46a3-8d17-ac66373f72f5="" data-r-0_0_0_0_0_1_2_1_402beeeb-90e0-46a3-8d17-ac66373f72f5="" class="text sd appear">コーヒーカクテル</h3><p data-s-99adc706-821f-4e0b-8d2d-6e24721c48c9="" data-r-1_0_0_0_0_1_2_1_99adc706-821f-4e0b-8d2d-6e24721c48c9="" class="text sd appear">普段のお店はコーヒー屋さん。<br>「iri coffee roastery」で焙煎された豆を使用したコーヒーカクテルがおすすめです。<br>コーヒーとカクテルの調和をお楽しみください。</p></div><div data-s-2677ef0b-df09-4edf-aa85-19cc1b33043c="" class="sd appear"><div data-s-8339f21c-0b4c-4f27-8e7b-9c393f490c37="" data-r-0_1_0_0_0_1_2_1_8339f21c-0b4c-4f27-8e7b-9c393f490c37="" class="image sd"><style>.sd[data-r-0_1_0_0_0_1_2_1_8339f21c-0b4c-4f27-8e7b-9c393f490c37]:before { background-image: url("https://storage.googleapis.com/studio-design-asset-files/projects/YPqrpNX8W5/s-1920x1280_v-frms_webp_0db873ff-760e-43bf-be86-f46ece580953_regular.webp") }</style></div></div></div></div></section></div></div></main><footer id="conclusion" data-s-182cf3ee-87e5-4618-9245-de97ab114199="" class="sd appear"><div data-s-18ce2ef9-895c-4f44-8bfd-cdc38ef26690="" class="sd appear"><div data-s-4264457a-4894-4a93-b814-1f5b11766d6a="" data-r-0_0_2_fb8959a8-14b8-4598-a848-e3b7cb515bbf_4264457a-4894-4a93-b814-1f5b11766d6a="" class="image sd"><div data-s-458d60aa-8b82-4af1-bc1b-49b0e8cb2b49="" class="sd appear"><div data-s-a56340d2-f838-43a3-ab39-3fa569696c25="" class="sd appear"></div><h2 data-s-903eaf4b-fbc4-4c35-9c5d-3db235131fef="" data-r-1_0_0_0_2_fb8959a8-14b8-4598-a848-e3b7cb515bbf_903eaf4b-fbc4-4c35-9c5d-3db235131fef="" class="text sd appear">アクセス</h2><div data-s-ef81b5d0-4119-40c8-af62-8ffb909b5067="" class="sd appear"></div></div><style>.sd[data-r-0_0_2_fb8959a8-14b8-4598-a848-e3b7cb515bbf_4264457a-4894-4a93-b814-1f5b11766d6a]:before { background-image: url("https://images.unsplash.com/photo-1551901492-5f649c6bf015?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjYzNDZ9") }</style></div></div><div data-s-2f190939-8e93-4dd9-869f-02e08db69743="" class="sd appear"><div data-s-25581c04-f4f6-4c11-ad12-301aa2a65910="" class="sd appear"><div data-s-534a92ba-07cb-432f-803c-fa689746686c="" class="sd appear"><h3 data-s-0e000373-b83b-49a6-ab6b-348cf3d95777="" data-r-0_0_0_1_2_fb8959a8-14b8-4598-a848-e3b7cb515bbf_0e000373-b83b-49a6-ab6b-348cf3d95777="" class="text sd appear">progress_bar<br></h3><div data-s-9f757f7b-da36-4c3a-bff3-9bb877e49f75="" class="sd appear"><div data-s-1a8f20e8-9cc9-4637-8613-33de17242580="" class="sd appear"><p data-s-db7c99b1-8285-4431-8826-72b2fbe6d12b="" data-r-0_0_1_0_0_1_2_fb8959a8-14b8-4598-a848-e3b7cb515bbf_db7c99b1-8285-4431-8826-72b2fbe6d12b="" class="text sd appear">住所 :&nbsp;〒154-0023 東京都世田谷区若林４丁目２２−１８ パトリア松蔭<br></p><a href="https://goo.gl/maps/ZuYTnrQQKgryqoEV7" rel="noopener" target="_blank" data-s-d1893b7a-c1c5-46e1-a516-cb2b9d9ca5d5="" data-r-1_0_1_0_0_1_2_fb8959a8-14b8-4598-a848-e3b7cb515bbf_d1893b7a-c1c5-46e1-a516-cb2b9d9ca5d5="" class="text sd appear">[MAP]</a></div><div data-s-9b8f6a6c-4939-42a8-b52f-7e584e34c6a8="" class="sd appear"><p data-s-1268db16-f7bc-452d-8eec-9ca4275c3de2="" data-r-0_1_1_0_0_1_2_fb8959a8-14b8-4598-a848-e3b7cb515bbf_1268db16-f7bc-452d-8eec-9ca4275c3de2="" class="text sd appear">営業時間 : 土曜日、日曜日 10:00 - 19:00<br></p></div><div data-s-7c02ec83-d807-4d21-8789-521ad9eeef82="" class="sd appear"><p data-s-fbf715f9-6468-4817-9fe3-7fbeae6ef479="" data-r-0_2_1_0_0_1_2_fb8959a8-14b8-4598-a848-e3b7cb515bbf_fbf715f9-6468-4817-9fe3-7fbeae6ef479="" class="text sd appear">お問い合わせ :<br></p><p data-s-ab02c326-02fd-46b5-a840-94be80880f5e="" data-r-1_2_1_0_0_1_2_fb8959a8-14b8-4598-a848-e3b7cb515bbf_ab02c326-02fd-46b5-a840-94be80880f5e="" class="text sd appear">progress.bar9.4@gmail.com</p></div></div></div><div data-s-b4fa3c8e-3a5e-4c52-aa5f-e83f2499e5d9="" class="sd appear"><p data-s-b35efeb6-7b94-4a91-bb8f-eb333e4f18bd="" data-r-0_1_0_1_2_fb8959a8-14b8-4598-a848-e3b7cb515bbf_b35efeb6-7b94-4a91-bb8f-eb333e4f18bd="" class="text sd appear">©︎2023, progress_bar</p></div></div></div></footer></div><div data-v-4b268d44="" class="product-font-style"><style data-v-4b268d44=""></style></div><style>:root {--s-font-18b07931: しまなみ;}</style></div></div></div><!----><a href="https://studio.design/?utm_source=/&amp;utm_medium=STUDIO%20Banner&amp;utm_campaign=STUDIO%20Banner" target="_blank" style="display:flex !important;" data-v-453f3451="" data-v-ac5d8026=""><img src="./progress_bar_files/banner.png" alt="banner" height="18" width="98" style="display:flex !important;" data-v-ac5d8026=""></a></div></div><script type="application/json" id="__NUXT_DATA__" data-ssr="true">[["Reactive",1],{"data":2,"state":4,"_errors":5,"serverRendered":6,"pinia":7},{"dynamicData":3},null,{},{"dynamicData":3},true,{"cmsContentStore":8,"indexStore":13,"projectStore":16,"productStore":29,"pageHeadStore":85,"typeSquareStore":87},{"referenceMap":9,"listContentsMap":10,"contentMap":11,"clientLoaded":12},["Map"],["Map"],["Map"],false,{"routeType":14,"host":15},"publish","progress-bar.studio.site",{"project":17},{"id":18,"name":19,"type":20,"customDomain":21,"iconImage":21,"coverImage":22,"displayBadge":6,"integrations":23,"snapshot_path":27,"snapshot_id":28,"recaptchaSiteKey":-1},"YPqrpNX8W5","progress_bar","web","","https://storage.googleapis.com/production-os-assets/assets/9df26394-a711-4abc-b4e8-f65606070adb",[24],{"integration_name":25,"code":26},"typesquare","unused","https://storage.googleapis.com/studio-publish/projects/YPqrpNX8W5/Va6kB898W7/","Va6kB898W7",{"product":30,"isLoaded":6,"selectedModalIds":82,"redirectPage":3,"isInitializedRSS":12,"pageViewMap":83,"symbolViewMap":84},{"breakPoints":31,"colors":38,"fonts":39,"head":42,"info":49,"pages":56,"resources":69,"symbols":72,"style":75,"styleVars":77,"enablePassword":12},[32,35],{"maxWidth":33,"name":34},480,"mobile",{"maxWidth":36,"name":37},768,"tablet",[],[40],{"family":41,"vendor":25},"しまなみ",{"favicon":43,"lang":44,"meta":45,"title":48},"https://storage.googleapis.com/production-os-assets/assets/07090e8d-b3c6-4f59-a308-b519c57f9529","ja",{"description":46,"og:image":47},"主にお店紹介などに適したテンプレートです。落ち着いた雰囲気のお店の紹介などに是非ご使用ください。","https://storage.googleapis.com/production-os-assets/assets/a879ed8b-42e2-4e81-957a-a3c180850399","Green Tea",{"baseWidth":50,"created_at":51,"screen":52,"type":20,"updated_at":54,"version":55},1280,1518591100346,{"height":53,"isAutoHeight":12,"width":50,"workingState":12},600,1518792996878,"4.1.3",[57],{"head":58,"id":63,"type":64,"uuid":65,"symbolIds":66},{"title":19,"meta":59,"favicon":62},{"description":60,"og:image":21,"robots":61},"コーヒーカクテルにこだわる間借りバー","noindex","https://storage.googleapis.com/production-os-assets/assets/81da08b7-2cdb-4531-bd91-cd472ea7dd00","/","page","3c34b5ce-2d7b-44e6-b32b-0820d2bef715",[67,68],"231d7b10-9691-4fff-a280-342346a691b4","9d5b7014-7d79-4281-b52e-81faa9f486aa",{"rssList":70,"apiList":71,"cmsProjectId":21},[],[],[73,74],{"uuid":67},{"uuid":68},{"fontFamily":76},[],{"fontFamily":78},[79],{"key":80,"name":81,"value":41},"18b07931","見出し、本文",[],{},["Map"],{"googleFontMap":86,"typesquareLoaded":12},["Map"],{"text":88},{}]</script><script>window.__NUXT__={};window.__NUXT__.config={public:{apiBaseUrl:"https://api.studiodesignapp.com/api",cmsApiBaseUrl:"https://api.cms.studiodesignapp.com",previewBaseUrl:"https://preview.studio.site",facebookAppId:"569471266584583",firebaseApiKey:"AIzaSyBkjSUz89vvvl35U-EErvfHXLhsDakoNNg",firebaseProjectId:"studio-7e371",firebaseAuthDomain:"studio-7e371.firebaseapp.com",firebaseDatabaseURL:"https://studio-7e371.firebaseio.com",firebaseStorageBucket:"studio-7e371.appspot.com",firebaseMessagingSenderId:"373326844567",firebaseAppId:"1:389988806345:web:db757f2db74be8b3",studioDomain:".studio.site",googleAnalyticsTrackingID:"UA-90080275-5",studioPublishUrl:"https://storage.googleapis.com/studio-publish",studioPublishIndexUrl:"https://storage.googleapis.com/studio-publish-index",rssApiPath:"https://rss.studiodesignapp.com/rssConverter",embedSandboxDomain:".studioiframesandbox.com",apiProxyUrl:"https://studio-api-proxy-rajzgb4wwq-an.a.run.app/publish",isPublishSite:true,isDev:false},app:{baseURL:"/",buildAssetsDir:"/_nuxt/",cdnURL:""}}</script><script type="module" src="./progress_bar_files/entry.62cd396d.js" crossorigin=""></script>
-</body></html>
+<html lang="ja">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>progress_bar</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="generator" content="STUDIO" />
+    <meta name="robots" content="noindex, nofollow" />
+    <meta property="og:site_name" content="Green Tea" />
+    <meta property="og:title" content="progress_bar" />
+    <meta
+      property="og:image"
+      content="https://storage.googleapis.com/production-os-assets/assets/a879ed8b-42e2-4e81-957a-a3c180850399"
+    />
+    <meta
+      property="og:description"
+      content="コーヒーカクテルにこだわる間借りバー"
+    />
+    <meta name="description" content="コーヒーカクテルにこだわる間借りバー" />
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta
+      property="twitter:image"
+      content="https://storage.googleapis.com/production-os-assets/assets/a879ed8b-42e2-4e81-957a-a3c180850399"
+    />
+    <meta name="apple-mobile-web-app-title" content="progress_bar" />
+    <meta
+      property="og:url"
+      content="https://takuya4tech.github.io/progress_bar/"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="https://storage.googleapis.com/production-os-assets/assets/81da08b7-2cdb-4531-bd91-cd472ea7dd00"
+    />
+    <link
+      rel="apple-touch-icon"
+      type="image/png"
+      href="https://storage.googleapis.com/production-os-assets/assets/81da08b7-2cdb-4531-bd91-cd472ea7dd00"
+    />
+    <link rel="canonical" href="https://takuya4tech.github.io/progress_bar/" />
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="" />
+    <link
+      rel="modulepreload"
+      as="script"
+      crossorigin=""
+      href="./progress_bar_files/entry.62cd396d.js"
+    />
+    <link
+      rel="preload"
+      as="style"
+      href="./progress_bar_files/entry.6b81d913.css"
+    />
+    <link
+      rel="prefetch"
+      as="image"
+      type="image/svg+xml"
+      href="https://takuya4tech.github.io/progress_bar/_nuxt/close_circle.c7480f3c.svg"
+    />
+    <link
+      rel="prefetch"
+      as="image"
+      type="image/svg+xml"
+      href="https://takuya4tech.github.io/progress_bar/_nuxt/round_check.0ebac23f.svg"
+    />
+    <link
+      rel="prefetch"
+      as="script"
+      crossorigin=""
+      href="https://takuya4tech.github.io/progress_bar/_nuxt/error-component.caa4230c.js"
+    />
+    <link rel="stylesheet" href="./progress_bar_files/entry.6b81d913.css" />
+    <style>
+      .container[data-v-453f3451] {
+        transition: none;
+      }
+      .container.page-enter[data-v-453f3451],
+      .container.page-leave-to[data-v-453f3451] {
+        opacity: 0;
+      }
+      .container.page-enter-active[data-v-453f3451],
+      .container.page-leave-active[data-v-453f3451] {
+        transition: 0.3s cubic-bezier(0.4, 0.4, 0, 1);
+      }
+    </style>
+    <style>
+      a[data-v-ac5d8026] {
+        align-content: center;
+        align-items: center;
+        background-color: #fff;
+        border-radius: 4px;
+        bottom: 20px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.14);
+        display: flex;
+        height: 28px;
+        justify-content: center;
+        left: 20px;
+        padding: 0 12px;
+        perspective: 300px;
+        position: fixed;
+        transition: 0s linear;
+        width: auto;
+        z-index: 2000;
+      }
+    </style>
+    <script
+      async=""
+      defer=""
+      data-h-load=""
+      src="./progress_bar_files/typesquare.js"
+    ></script>
+    <style data-length="0" name="modal-test"></style>
+    <style type="text/css" rel="stylesheet" class="ts-font">
+      @font-face {
+        font-family: "しまなみ";
+        font-weight: Bold;
+        src: url(//wf.typesquare.com/3/tsst/dist/ja/ts?condition=89a343af01401f64a1a86cbee3e4421e&onetime_condition=&eid=5ad00062415c46a09fd67fd7ac1e024a&bw[name]=Chrome&bw[ftf]=0&bw[os]=Macintosh&location=progress-bar.studio.site%2F&fonts[id]=2007&fonts[str]=LC0uMDEyMzQ1OTpAQU1QVFtdX2FiY2VmZ2lsbW9wcnN0ecKp4oC74oiS44CB44CC44CM44CN44CS44GC44GE44GG44GK44GL44GM44GP44GR44GT44GU44GV44GX44GZ44Gb44Gf44Gg44Gh44Gm44Gn44Go44Gq44Gu44Gv44G%2B44G%2F44KB44KC44KJ44KK44KL44KM44KP44KS44KT44Ki44Kq44Kr44Kv44Kz44K544K744OG44OI44OL44OR44OS44OX44Oh44Ol44Oq44Or44Oz44O85LiB5LiW5Lqs5L2P5L2%2F5YCf5YyW5Yy65ZCI5ZGz5ZKM5ZWP5Za25Zyf5aCq5aSJ5bGL5bqP5bqX5oSP5omA5oyB5pel5pmC5pmu5puc5p2x5p2%2B5p6X5qWt5qW95q2p5q615rCX54SZ54WO55So55Sw55WM55uu56ug57Sw57aa6IO96Iul6JSt6Kan6Kmz6Kq%2F6LC36LGG6L686YCy6YO96ZaT77iO77yR77yS77yU77yY);
+      }
+    </style>
+    <style type="text/css" rel="stylesheet" class="ts-font">
+      @font-face {
+        font-family: "しまなみ";
+        font-weight: Bold;
+        src: url(//wf.typesquare.com/3/tsst/dist/ja/ts?condition=89a343af01401f64a1a86cbee3e4421e&onetime_condition=&eid=5ad00062415c46a09fd67fd7ac1e024a&bw[name]=Chrome&bw[ftf]=0&bw[os]=Macintosh&location=progress-bar.studio.site%2F&fonts[id]=2007&fonts[str]=LC0uMDEyMzQ1OTpAQU1QVFtdX2FiY2VmZ2lsbW9wcnN0ecKp4oC74oiS44CB44CC44CM44CN44CS44GC44GE44GG44GK44GL44GM44GP44GR44GT44GU44GV44GX44GZ44Gb44Gf44Gg44Gh44Gm44Gn44Go44Gq44Gu44Gv44G%2B44G%2F44KB44KC44KJ44KK44KL44KM44KP44KS44KT44Ki44Kq44Kr44Kv44Kz44K544K744OG44OI44OL44OR44OS44OX44Oh44Ol44Oq44Or44Oz44O85LiB5LiW5Lqs5L2P5L2%2F5YCf5YyW5Yy65ZCI5ZGz5ZKM5ZWP5Za25Zyf5aCq5aSJ5bGL5bqP5bqX5oSP5omA5oyB5pel5pmC5pmu5puc5p2x5p2%2B5p6X5qWt5qW95q2p5q615rCX54SZ54WO55So55Sw55WM55uu56ug57Sw57aa6IO96Iul6JSt6Kan6Kmz6Kq%2F6LC36LGG6L686YCy6YO96ZaT77iO77yR77yS77yU77yY);
+      }
+    </style>
+  </head>
+  <body>
+    <div id="__nuxt">
+      <div data-v-453f3451="">
+        <div data-v-453f3451="" class="container">
+          <style data-v-124a21fd="">
+            .sd[data-s-534bb210-c418-418e-a8e5-2daf6d38d4f5] {
+              align-content: flex-start;
+              align-items: flex-start;
+              background: rgba(0, 0, 0, 0);
+              bottom: auto;
+              flex: none;
+              flex-direction: column;
+              flex-wrap: nowrap;
+              height: auto;
+              justify-content: flex-start;
+              left: 0px;
+              margin: 0 0 0 0;
+              padding: 24px 24px 24px 24px;
+              position: fixed;
+              right: auto;
+              top: 210px;
+              width: auto;
+              z-index: 4;
+              max-width: 100%;
+            }
+            @media screen and (max-width: 768px) {
+              .sd[data-s-534bb210-c418-418e-a8e5-2daf6d38d4f5] {
+                left: 0px;
+                right: auto;
+                width: 200px;
+                max-width: 100%;
+              }
+            }
+            @media screen and (max-width: 480px) {
+              .sd[data-s-534bb210-c418-418e-a8e5-2daf6d38d4f5] {
+                display: none;
+              }
+            }
+            .sd[data-s-420b321f-f568-4d18-a39a-fd4a6c080568] {
+              color: #000000;
+              font-family: var(--s-font-18b07931);
+              font-size: 16px;
+              font-weight: 400;
+              height: auto;
+              letter-spacing: 0.05em;
+              margin: 0px 0px 0px 0px;
+              padding: 12px 12px 12px 12px;
+              text-align: center;
+              width: auto;
+              max-width: 100%;
+              justify-content: center;
+            }
+            .sd[data-s-420b321f-f568-4d18-a39a-fd4a6c080568]:hover {
+              background: rgba(47, 106, 2, 0.45);
+              color: #ffffff;
+            }
+            @media screen and (max-width: 768px) {
+              .sd[data-s-420b321f-f568-4d18-a39a-fd4a6c080568] {
+                font-size: 14px;
+              }
+            }
+            .sd[data-s-69854ab0-9870-4317-9f19-5125240c38f5] {
+              background: #000000;
+              height: 50px;
+              margin: 0px 0px 0px 21px;
+              width: 1px;
+              max-width: calc(100% - 21px);
+            }
+            .sd[data-s-3e45317a-ecb3-4f44-9806-8a1b1c2efa93] {
+              color: #000000;
+              font-family: var(--s-font-18b07931);
+              font-size: 15px;
+              font-weight: 400;
+              height: auto;
+              margin: 0px 0px 0px 0px;
+              padding: 12px 12px 12px 12px;
+              text-align: center;
+              width: auto;
+              max-width: 100%;
+              justify-content: center;
+            }
+            .sd[data-s-3e45317a-ecb3-4f44-9806-8a1b1c2efa93]:hover {
+              background: rgba(47, 106, 2, 0.45);
+              color: #ffffff;
+            }
+            @media screen and (max-width: 768px) {
+              .sd[data-s-3e45317a-ecb3-4f44-9806-8a1b1c2efa93] {
+                font-size: 14px;
+                margin: 0px 0px 0px 0px;
+              }
+            }
+            .sd[data-s-f3ab4d6d-d79e-40f5-91ed-f174f96563e9] {
+              color: #000000;
+              font-family: var(--s-font-18b07931);
+              font-size: 15px;
+              font-weight: 400;
+              height: auto;
+              margin: 0px 0px 0px 0px;
+              padding: 12px 12px 12px 12px;
+              text-align: center;
+              width: auto;
+              max-width: 100%;
+              justify-content: center;
+            }
+            .sd[data-s-f3ab4d6d-d79e-40f5-91ed-f174f96563e9]:hover {
+              background: rgba(47, 106, 2, 0.45);
+              color: #ffffff;
+            }
+            @media screen and (max-width: 768px) {
+              .sd[data-s-f3ab4d6d-d79e-40f5-91ed-f174f96563e9] {
+                font-size: 14px;
+                margin: 0px 0px 0px 0px;
+              }
+            }
+            .sd[data-s-3cfb6a57-7e9f-4ed1-affd-91ac9bc121eb] {
+              color: #000000;
+              font-family: var(--s-font-18b07931);
+              font-size: 15px;
+              font-weight: 400;
+              height: auto;
+              margin: 0px 0px 0px 0px;
+              padding: 12px 12px 12px 12px;
+              text-align: center;
+              width: auto;
+              max-width: 100%;
+              justify-content: center;
+            }
+            .sd[data-s-3cfb6a57-7e9f-4ed1-affd-91ac9bc121eb]:hover {
+              background: rgba(47, 106, 2, 0.45);
+              color: #ffffff;
+            }
+            @media screen and (max-width: 768px) {
+              .sd[data-s-3cfb6a57-7e9f-4ed1-affd-91ac9bc121eb] {
+                font-size: 14px;
+              }
+            }</style
+          ><!----><style data-v-124a21fd="">
+            .sd[data-s-182cf3ee-87e5-4618-9245-de97ab114199] {
+              align-content: flex-start;
+              align-items: flex-start;
+              background: rgba(0, 0, 0, 0);
+              flex: none;
+              flex-direction: column;
+              flex-wrap: nowrap;
+              height: auto;
+              justify-content: flex-start;
+              width: 100%;
+              max-width: 100%;
+            }
+            @media screen and (max-width: 480px) {
+              .sd[data-s-182cf3ee-87e5-4618-9245-de97ab114199] {
+                align-content: flex-start;
+                align-items: flex-start;
+                flex: none;
+                height: auto;
+              }
+            }
+            .sd[data-s-18ce2ef9-895c-4f44-8bfd-cdc38ef26690] {
+              align-content: center;
+              align-items: center;
+              background: #ffffff;
+              flex: none;
+              flex-direction: row;
+              flex-wrap: nowrap;
+              height: 368px;
+              justify-content: center;
+              overflow-x: visible;
+              overflow-y: visible;
+              width: 100%;
+              max-width: 100%;
+            }
+            @media screen and (max-width: 480px) {
+              .sd[data-s-18ce2ef9-895c-4f44-8bfd-cdc38ef26690] {
+                flex: none;
+                height: 304px;
+                width: 100%;
+                max-width: 100%;
+              }
+            }
+            .sd[data-s-4264457a-4894-4a93-b814-1f5b11766d6a] {
+              align-content: center;
+              align-items: center;
+              flex-direction: column;
+              flex-wrap: nowrap;
+              height: 100%;
+              justify-content: center;
+              overflow-x: hidden;
+              overflow-y: hidden;
+              width: 100%;
+              max-width: 100%;
+            }
+            .sd[data-s-458d60aa-8b82-4af1-bc1b-49b0e8cb2b49] {
+              align-content: center;
+              align-items: center;
+              background: rgba(0, 0, 0, 0);
+              flex: none;
+              flex-direction: column;
+              flex-wrap: nowrap;
+              height: auto;
+              justify-content: center;
+              margin: 0px 0px 0px 0px;
+              padding: 4px 4px 4px 4px;
+              width: auto;
+              max-width: 100%;
+            }
+            .sd[data-s-a56340d2-f838-43a3-ab39-3fa569696c25] {
+              background: #ffffff;
+              flex: none;
+              height: 1px;
+              margin: 0px 0px 12px 0px;
+              width: 100%;
+              max-width: 100%;
+            }
+            .sd[data-s-903eaf4b-fbc4-4c35-9c5d-3db235131fef] {
+              color: #ffffff;
+              font-family: var(--s-font-18b07931);
+              font-size: 20px;
+              font-weight: 400;
+              height: auto;
+              letter-spacing: 0.05em;
+              margin: 0px 0px 0px 0px;
+              text-align: center;
+              width: auto;
+              max-width: 100%;
+              justify-content: center;
+            }
+            .sd[data-s-ef81b5d0-4119-40c8-af62-8ffb909b5067] {
+              background: #ffffff;
+              flex: none;
+              height: 1px;
+              margin: 12px 0px 0px 0px;
+              width: 100%;
+              max-width: 100%;
+            }
+            .sd[data-s-2f190939-8e93-4dd9-869f-02e08db69743] {
+              align-content: center;
+              align-items: center;
+              background: #fbfbfb;
+              flex: none;
+              flex-direction: column;
+              flex-wrap: nowrap;
+              height: auto;
+              justify-content: space-between;
+              margin: 0px 0px 0px 0px;
+              overflow-x: visible;
+              overflow-y: visible;
+              padding: 64px 0px 24px 0px;
+              width: 100%;
+              max-width: 100%;
+            }
+            @media screen and (max-width: 480px) {
+              .sd[data-s-2f190939-8e93-4dd9-869f-02e08db69743] {
+                flex: none;
+                height: auto;
+                padding: 56px 0px 24px 0px;
+                width: 100%;
+              }
+            }
+            .sd[data-s-25581c04-f4f6-4c11-ad12-301aa2a65910] {
+              align-content: center;
+              align-items: center;
+              background: rgba(0, 0, 0, 0);
+              flex: none;
+              flex-direction: column;
+              flex-wrap: nowrap;
+              height: auto;
+              justify-content: flex-start;
+              margin: 0px 40px 0px;
+              width: 620px;
+              max-width: calc(100% - 80px);
+            }
+            @media screen and (max-width: 480px) {
+              .sd[data-s-25581c04-f4f6-4c11-ad12-301aa2a65910] {
+                flex: none;
+                height: auto;
+              }
+            }
+            .sd[data-s-534a92ba-07cb-432f-803c-fa689746686c] {
+              align-content: center;
+              align-items: center;
+              background: rgba(0, 0, 0, 0);
+              flex: none;
+              flex-direction: column;
+              flex-wrap: nowrap;
+              height: auto;
+              justify-content: flex-start;
+              margin: 0px 0px 0px 0px;
+              padding: 24px;
+              width: 100%;
+              max-width: 100%;
+            }
+            @media screen and (max-width: 480px) {
+              .sd[data-s-534a92ba-07cb-432f-803c-fa689746686c] {
+                align-content: center;
+                align-items: center;
+                padding: 16px;
+              }
+            }
+            .sd[data-s-0e000373-b83b-49a6-ab6b-348cf3d95777] {
+              color: #333;
+              font-family: var(--s-font-18b07931);
+              font-size: 18px;
+              font-weight: 400;
+              height: auto;
+              letter-spacing: 0.05em;
+              text-align: center;
+              width: auto;
+              max-width: 100%;
+              justify-content: center;
+            }
+            @media screen and (max-width: 480px) {
+              .sd[data-s-0e000373-b83b-49a6-ab6b-348cf3d95777] {
+                font-size: 18px;
+              }
+            }
+            .sd[data-s-9f757f7b-da36-4c3a-bff3-9bb877e49f75] {
+              align-content: center;
+              align-items: center;
+              background: rgba(0, 0, 0, 0);
+              flex: none;
+              flex-direction: column;
+              flex-wrap: nowrap;
+              height: 117px;
+              justify-content: flex-start;
+              margin: 20px 0px 0px 0px;
+              width: 100%;
+              max-width: 100%;
+            }
+            @media screen and (max-width: 480px) {
+              .sd[data-s-9f757f7b-da36-4c3a-bff3-9bb877e49f75] {
+                align-content: center;
+                align-items: center;
+              }
+            }
+            .sd[data-s-1a8f20e8-9cc9-4637-8613-33de17242580] {
+              align-content: center;
+              align-items: center;
+              background: rgba(0, 0, 0, 0);
+              flex-direction: row;
+              flex-wrap: nowrap;
+              height: 40px;
+              justify-content: center;
+              overflow-x: hidden;
+              overflow-y: hidden;
+              width: 100%;
+              max-width: 100%;
+            }
+            @media screen and (max-width: 480px) {
+              .sd[data-s-1a8f20e8-9cc9-4637-8613-33de17242580] {
+                justify-content: center;
+                overflow-x: hidden;
+                overflow-y: hidden;
+              }
+            }
+            .sd[data-s-db7c99b1-8285-4431-8826-72b2fbe6d12b] {
+              color: #000000;
+              font-family: var(--s-font-18b07931);
+              font-size: 13px;
+              font-weight: 400;
+              height: auto;
+              line-height: 1.6;
+              margin: 0px 8px 0px 0px;
+              text-align: left;
+              width: auto;
+              max-width: calc(100% - 8px);
+              justify-content: flex-start;
+            }
+            @media screen and (max-width: 480px) {
+              .sd[data-s-db7c99b1-8285-4431-8826-72b2fbe6d12b] {
+                font-size: 11px;
+              }
+            }
+            .sd[data-s-d1893b7a-c1c5-46e1-a516-cb2b9d9ca5d5] {
+              color: #2f6a02;
+              font-family: var(--s-font-18b07931);
+              font-size: 13px;
+              font-weight: 400;
+              height: auto;
+              text-align: center;
+              width: auto;
+              max-width: 100%;
+              justify-content: center;
+            }
+            @media screen and (max-width: 480px) {
+              .sd[data-s-d1893b7a-c1c5-46e1-a516-cb2b9d9ca5d5] {
+                font-size: 11px;
+              }
+            }
+            .sd[data-s-9b8f6a6c-4939-42a8-b52f-7e584e34c6a8] {
+              align-content: center;
+              align-items: center;
+              background: rgba(0, 0, 0, 0);
+              flex-direction: row;
+              flex-wrap: nowrap;
+              height: 40px;
+              justify-content: center;
+              overflow-x: hidden;
+              overflow-y: hidden;
+              width: 100%;
+              max-width: 100%;
+            }
+            @media screen and (max-width: 480px) {
+              .sd[data-s-9b8f6a6c-4939-42a8-b52f-7e584e34c6a8] {
+                justify-content: center;
+                overflow-x: hidden;
+                overflow-y: hidden;
+              }
+            }
+            .sd[data-s-1268db16-f7bc-452d-8eec-9ca4275c3de2] {
+              color: #000000;
+              font-family: var(--s-font-18b07931);
+              font-size: 13px;
+              font-weight: 400;
+              height: auto;
+              line-height: 1.6;
+              margin: 0px 8px 0px 0px;
+              text-align: left;
+              width: auto;
+              max-width: calc(100% - 8px);
+              justify-content: flex-start;
+            }
+            @media screen and (max-width: 480px) {
+              .sd[data-s-1268db16-f7bc-452d-8eec-9ca4275c3de2] {
+                font-size: 11px;
+              }
+            }
+            .sd[data-s-7c02ec83-d807-4d21-8789-521ad9eeef82] {
+              align-content: center;
+              align-items: center;
+              background: rgba(0, 0, 0, 0);
+              flex-direction: row;
+              flex-wrap: nowrap;
+              height: 40px;
+              justify-content: center;
+              overflow-x: hidden;
+              overflow-y: hidden;
+              width: 100%;
+              max-width: 100%;
+            }
+            @media screen and (max-width: 480px) {
+              .sd[data-s-7c02ec83-d807-4d21-8789-521ad9eeef82] {
+                justify-content: center;
+                overflow-x: hidden;
+                overflow-y: hidden;
+              }
+            }
+            .sd[data-s-fbf715f9-6468-4817-9fe3-7fbeae6ef479] {
+              color: #000000;
+              font-family: var(--s-font-18b07931);
+              font-size: 13px;
+              font-weight: 400;
+              height: auto;
+              line-height: 1.6;
+              margin: 0px 8px 0px 0px;
+              padding: 0px 0px 0px 0px;
+              text-align: left;
+              width: auto;
+              max-width: calc(100% - 8px);
+              justify-content: flex-start;
+            }
+            @media screen and (max-width: 480px) {
+              .sd[data-s-fbf715f9-6468-4817-9fe3-7fbeae6ef479] {
+                font-size: 11px;
+              }
+            }
+            .sd[data-s-ab02c326-02fd-46b5-a840-94be80880f5e] {
+              color: #2f6a02;
+              font-family: var(--s-font-18b07931);
+              font-size: 13px;
+              font-weight: 400;
+              height: auto;
+              text-align: center;
+              width: auto;
+              max-width: 100%;
+              justify-content: center;
+            }
+            @media screen and (max-width: 480px) {
+              .sd[data-s-ab02c326-02fd-46b5-a840-94be80880f5e] {
+                font-size: 11px;
+              }
+            }
+            .sd[data-s-b4fa3c8e-3a5e-4c52-aa5f-e83f2499e5d9] {
+              align-content: center;
+              align-items: center;
+              background: rgba(0, 0, 0, 0);
+              flex: none;
+              flex-direction: column;
+              flex-wrap: nowrap;
+              height: auto;
+              justify-content: center;
+              margin: 48px 0px 0px 0px;
+              padding: 0px 0px 0px 0px;
+              width: auto;
+              max-width: 100%;
+            }
+            @media screen and (max-width: 480px) {
+              .sd[data-s-b4fa3c8e-3a5e-4c52-aa5f-e83f2499e5d9] {
+                align-content: center;
+                align-items: center;
+                flex: none;
+                height: auto;
+              }
+            }
+            .sd[data-s-b35efeb6-7b94-4a91-bb8f-eb333e4f18bd] {
+              color: #333;
+              font-family: var(--s-font-18b07931);
+              font-size: 10px;
+              font-weight: 400;
+              height: auto;
+              text-align: center;
+              width: auto;
+              max-width: 100%;
+              justify-content: center;
+            }</style
+          ><!----><style data-v-124a21fd="">
+            .sd[data-s-a031279e-e8fb-4207-9194-42fac0b464b3] {
+              align-content: flex-start;
+              align-items: flex-start;
+              background: #fff;
+              border-radius: 0;
+              box-shadow: ;
+              flex-direction: column;
+              flex-wrap: nowrap;
+              height: 100%;
+              justify-content: flex-start;
+              margin: 0 0 0 0;
+              opacity: 1;
+              padding: 0 0 0 0;
+              width: 100%;
+              max-width: 100%;
+            }
+            @media screen and (max-width: 480px) {
+              .sd[data-s-a031279e-e8fb-4207-9194-42fac0b464b3] {
+                align-content: flex-start;
+                align-items: flex-start;
+                padding: 0 0 0 0;
+              }
+            }
+            .sd[data-s-fc10ddac-b3ce-47dd-82fe-7687d5c83a3e] {
+            }
+            .sd[data-s-c82c98db-59b4-4be2-a465-ed990840ba51] {
+              align-content: center;
+              align-items: center;
+              flex: none;
+              flex-direction: column;
+              flex-wrap: nowrap;
+              justify-content: center;
+              padding: 0px;
+              width: 100%;
+              max-width: 100%;
+            }
+            .sd[data-s-a6ef9652-5c57-4ce5-8a86-153eea8734e6] {
+              align-content: center;
+              align-items: center;
+              flex: none;
+              flex-direction: column;
+              flex-wrap: nowrap;
+              height: 100vh;
+              justify-content: center;
+              margin: 0px 0px 0px 0px;
+              overflow-x: visible;
+              overflow-y: visible;
+              padding: 0px 0px 0px 0px;
+              width: 100%;
+              max-width: 100%;
+            }
+            @media screen and (max-width: 768px) {
+              .sd[data-s-a6ef9652-5c57-4ce5-8a86-153eea8734e6] {
+                justify-content: space-between;
+                overflow-x: visible;
+                overflow-y: visible;
+                padding: 0px 0px 0px 0px;
+              }
+            }
+            @media screen and (max-width: 480px) {
+              .sd[data-s-a6ef9652-5c57-4ce5-8a86-153eea8734e6] {
+                flex: none;
+                height: 88vh;
+                padding: 88px 0px 0px 0px;
+                width: 100%;
+                max-width: 100%;
+              }
+            }
+            .sd[data-s-2e42571d-8cf3-4aaf-87b1-46cd7432198d] {
+              width: auto;
+              height: auto;
+              font-family: var(--s-font-18b07931);
+              font-size: 64px;
+              line-height: 1.4;
+              font-weight: 400;
+              text-align: center;
+              color: #ffffff;
+              max-width: 100%;
+              justify-content: center;
+            }
+            .sd[data-s-52c30349-bd49-418b-9afd-62bf0a1eebe8] {
+              align-content: center;
+              align-items: center;
+              background: #ffffff;
+              flex: none;
+              flex-direction: column;
+              flex-wrap: nowrap;
+              height: auto;
+              justify-content: center;
+              overflow-x: hidden;
+              overflow-y: hidden;
+              padding: 24px;
+              width: 100%;
+              max-width: 100%;
+            }
+            @media screen and (max-width: 768px) {
+              .sd[data-s-52c30349-bd49-418b-9afd-62bf0a1eebe8] {
+                align-content: center;
+                align-items: center;
+                flex: none;
+                height: auto;
+                padding: 24px;
+              }
+            }
+            @media screen and (max-width: 480px) {
+              .sd[data-s-52c30349-bd49-418b-9afd-62bf0a1eebe8] {
+                flex: none;
+                height: auto;
+                padding: 0px 16px 0px;
+              }
+            }
+            .sd[data-s-996cf4ea-7e17-499e-8b70-9d909fc8bd70] {
+              color: #333;
+              flex: none;
+              font-family: var(--s-font-18b07931);
+              font-size: 15px;
+              font-weight: 400;
+              height: auto;
+              letter-spacing: 0.05em;
+              line-height: 2.5;
+              margin: 88px;
+              padding: 0px 0px 0px 0px;
+              text-align: left;
+              width: 620px;
+              max-width: calc(100% - 176px);
+              justify-content: flex-start;
+            }
+            @media screen and (max-width: 768px) {
+              .sd[data-s-996cf4ea-7e17-499e-8b70-9d909fc8bd70] {
+                margin: 88px;
+              }
+            }
+            @media screen and (max-width: 480px) {
+              .sd[data-s-996cf4ea-7e17-499e-8b70-9d909fc8bd70] {
+                flex: 1;
+                font-size: 13px;
+                height: auto;
+                margin: 64px 0px 64px;
+                max-width: 100%;
+              }
+            }
+            .sd[data-s-2aed6e99-e70a-4dea-88b1-c22abcf2d3d0] {
+              align-content: center;
+              align-items: center;
+              background: rgba(0, 0, 0, 0);
+              flex: none;
+              flex-direction: column;
+              flex-wrap: nowrap;
+              height: auto;
+              justify-content: flex-start;
+              margin: 0px 0px 0px 0px;
+              width: 100%;
+              max-width: 100%;
+            }
+            @media screen and (max-width: 768px) {
+              .sd[data-s-2aed6e99-e70a-4dea-88b1-c22abcf2d3d0] {
+                align-content: center;
+                align-items: center;
+              }
+            }
+            @media screen and (max-width: 480px) {
+              .sd[data-s-2aed6e99-e70a-4dea-88b1-c22abcf2d3d0] {
+                align-content: center;
+                align-items: center;
+                background: #ffffff;
+                flex: none;
+                flex-direction: column;
+                flex-wrap: nowrap;
+                height: auto;
+              }
+            }
+            .sd[data-s-929ef19f-b219-4a94-a9f5-4605f991a6d4] {
+              align-content: center;
+              align-items: center;
+              background: #ffffff;
+              flex: none;
+              flex-direction: row;
+              flex-wrap: nowrap;
+              height: 368px;
+              justify-content: center;
+              overflow-x: visible;
+              overflow-y: visible;
+              width: 100%;
+              max-width: 100%;
+            }
+            @media screen and (max-width: 480px) {
+              .sd[data-s-929ef19f-b219-4a94-a9f5-4605f991a6d4] {
+                flex: none;
+                height: 304px;
+                width: 100%;
+                max-width: 100%;
+              }
+            }
+            .sd[data-s-a3f05963-0b54-4511-9f2f-ad5309ded3fb] {
+              align-content: center;
+              align-items: center;
+              flex-direction: column;
+              flex-wrap: nowrap;
+              height: 100%;
+              justify-content: center;
+              overflow-x: hidden;
+              overflow-y: hidden;
+              width: 100%;
+              max-width: 100%;
+            }
+            .sd[data-s-5d615036-cc3c-4113-a282-2b84a4c30c42] {
+              align-content: center;
+              align-items: center;
+              background: rgba(0, 0, 0, 0);
+              flex: none;
+              flex-direction: column;
+              flex-wrap: nowrap;
+              height: auto;
+              justify-content: center;
+              margin: 0px 0px 0px 0px;
+              padding: 4px 4px 4px 4px;
+              width: 92px;
+              max-width: 100%;
+            }
+            .sd[data-s-093d3a00-bfb9-45b7-ab82-d404cc98d4e7] {
+              background: #ffffff;
+              flex: none;
+              height: 1px;
+              margin: 0px 0px 12px 0px;
+              width: 100%;
+              max-width: 100%;
+            }
+            .sd[data-s-36125e28-ce9f-4146-9818-06f2e1db75b4] {
+              color: #ffffff;
+              font-family: var(--s-font-18b07931);
+              font-size: 20px;
+              font-weight: 400;
+              height: auto;
+              letter-spacing: 0.05em;
+              margin: 0px 0px 0px 0px;
+              text-align: center;
+              width: auto;
+              max-width: 100%;
+              justify-content: center;
+            }
+            .sd[data-s-7b51b475-7e0f-4f72-9f9c-608b7b02529d] {
+              background: #ffffff;
+              flex: none;
+              height: 1px;
+              margin: 12px 0px 0px 0px;
+              width: 100%;
+              max-width: 100%;
+            }
+            .sd[data-s-3e08098e-0e8c-49e1-a620-ff7c91159430] {
+              color: #ffffff;
+              font-family: var(--s-font-18b07931);
+              font-size: 13px;
+              font-weight: 400;
+              height: auto;
+              margin: 10px 0px 0px 0px;
+              text-align: center;
+              width: auto;
+              max-width: 100%;
+              justify-content: center;
+            }
+            .sd[data-s-c5cbf98d-6a8e-4195-97fc-4a10a7e30d32] {
+              align-content: flex-start;
+              align-items: flex-start;
+              background: #ffffff;
+              flex: none;
+              flex-direction: column;
+              flex-wrap: nowrap;
+              height: auto;
+              justify-content: flex-start;
+              width: 100%;
+              max-width: 100%;
+            }
+            @media screen and (max-width: 768px) {
+              .sd[data-s-c5cbf98d-6a8e-4195-97fc-4a10a7e30d32] {
+                flex: none;
+                height: auto;
+              }
+            }
+            @media screen and (max-width: 480px) {
+              .sd[data-s-c5cbf98d-6a8e-4195-97fc-4a10a7e30d32] {
+                background: rgba(0, 0, 0, 0);
+                flex: none;
+                height: 1136px;
+                width: 100%;
+                max-width: 100%;
+              }
+            }
+            .sd[data-s-e2445f92-2076-478f-8535-a7e9b4f69452] {
+              align-content: center;
+              align-items: center;
+              background: #ffffff;
+              flex: none;
+              flex-direction: column;
+              flex-wrap: nowrap;
+              height: auto;
+              justify-content: flex-start;
+              width: 100%;
+              max-width: 100%;
+            }
+            @media screen and (max-width: 768px) {
+              .sd[data-s-e2445f92-2076-478f-8535-a7e9b4f69452] {
+                flex: none;
+                height: auto;
+              }
+            }
+            @media screen and (max-width: 480px) {
+              .sd[data-s-e2445f92-2076-478f-8535-a7e9b4f69452] {
+                align-content: center;
+                align-items: center;
+                flex: none;
+                height: 1136px;
+                width: 100%;
+                max-width: 100%;
+              }
+            }
+            .sd[data-s-fcf6b297-a786-4f80-ba06-dd67047b5f7b] {
+              align-content: center;
+              align-items: center;
+              background: #ffffff;
+              flex: none;
+              flex-direction: column;
+              flex-wrap: nowrap;
+              height: auto;
+              justify-content: center;
+              margin: 0px;
+              padding: 96px 96px 96px;
+              width: 100%;
+              max-width: 100%;
+            }
+            @media screen and (max-width: 768px) {
+              .sd[data-s-fcf6b297-a786-4f80-ba06-dd67047b5f7b] {
+                flex: none;
+                height: auto;
+                padding: 96px 0px 0px;
+              }
+            }
+            @media screen and (max-width: 480px) {
+              .sd[data-s-fcf6b297-a786-4f80-ba06-dd67047b5f7b] {
+                align-content: center;
+                align-items: center;
+                flex: none;
+                height: auto;
+                padding: 24px 0px 24px;
+              }
+            }
+            .sd[data-s-6b435f37-171f-4e1e-90f9-9ffe293407ab] {
+              align-content: center;
+              align-items: center;
+              background: #ffffff;
+              flex-direction: row;
+              flex-wrap: nowrap;
+              height: 100%;
+              justify-content: flex-start;
+              overflow-x: visible;
+              overflow-y: visible;
+              width: 100%;
+              max-width: 100%;
+            }
+            @media screen and (max-width: 480px) {
+              .sd[data-s-6b435f37-171f-4e1e-90f9-9ffe293407ab] {
+                flex-direction: column-reverse;
+                flex-wrap: nowrap;
+                height: 100%;
+                overflow-x: visible;
+                overflow-y: visible;
+              }
+            }
+            .sd[data-s-daff6a46-3836-47a9-94c9-2f22dff4770a] {
+              align-content: flex-start;
+              align-items: flex-start;
+              background: rgba(0, 0, 0, 0);
+              flex: none;
+              flex-direction: column;
+              flex-wrap: nowrap;
+              height: 100%;
+              justify-content: center;
+              padding: 0px 48px 24px 64px;
+              width: 50%;
+              max-width: 50%;
+            }
+            @media screen and (max-width: 768px) {
+              .sd[data-s-daff6a46-3836-47a9-94c9-2f22dff4770a] {
+                padding: 0px 24px 24px 40px;
+              }
+            }
+            @media screen and (max-width: 480px) {
+              .sd[data-s-daff6a46-3836-47a9-94c9-2f22dff4770a] {
+                flex: 1;
+                height: auto;
+                justify-content: center;
+                overflow-x: hidden;
+                overflow-y: hidden;
+                padding: 16px;
+                width: 100%;
+                max-width: 100%;
+              }
+            }
+            .sd[data-s-402beeeb-90e0-46a3-8d17-ac66373f72f5] {
+              color: #333;
+              font-family: var(--s-font-18b07931);
+              font-size: 28px;
+              font-weight: 400;
+              height: auto;
+              text-align: center;
+              width: auto;
+              max-width: 100%;
+              justify-content: center;
+            }
+            @media screen and (max-width: 480px) {
+              .sd[data-s-402beeeb-90e0-46a3-8d17-ac66373f72f5] {
+                font-size: 24px;
+                margin: 16px 0px 0px 0px;
+                max-width: 100%;
+              }
+            }
+            .sd[data-s-99adc706-821f-4e0b-8d2d-6e24721c48c9] {
+              color: #333;
+              flex: none;
+              font-family: var(--s-font-18b07931);
+              font-size: 15px;
+              font-weight: 400;
+              height: auto;
+              line-height: 2.5;
+              margin: 20px 0px 0px 0px;
+              text-align: left;
+              width: 100%;
+              max-width: 100%;
+              justify-content: flex-start;
+            }
+            @media screen and (max-width: 480px) {
+              .sd[data-s-99adc706-821f-4e0b-8d2d-6e24721c48c9] {
+                font-size: 13px;
+              }
+            }
+            .sd[data-s-2677ef0b-df09-4edf-aa85-19cc1b33043c] {
+              align-content: flex-start;
+              align-items: flex-start;
+              background: rgba(0, 0, 0, 0);
+              flex: none;
+              flex-direction: column;
+              flex-wrap: nowrap;
+              height: 100%;
+              justify-content: flex-start;
+              width: 50%;
+              transform: translate(0px, 0px);
+              max-width: 50%;
+            }
+            @media screen and (max-width: 480px) {
+              .sd[data-s-2677ef0b-df09-4edf-aa85-19cc1b33043c] {
+                flex: none;
+                height: 244px;
+                width: 100%;
+                max-width: 100%;
+              }
+            }
+            .sd[data-s-8339f21c-0b4c-4f27-8e7b-9c393f490c37] {
+              flex: none;
+              height: 544px;
+              width: 100%;
+              max-width: 100%;
+            }
+            .sd[data-s-fb8959a8-14b8-4598-a848-e3b7cb515bbf] {
+            }</style
+          ><style data-v-124a21fd="">
+            body {
+              background: #fff;
+              transition: background 0.5s cubic-bezier(0.4, 0.4, 0, 1);
+            }</style
+          ><!---->
+          <div
+            data-v-d9645d67=""
+            data-v-453f3451=""
+            class="TitleAnnouncer"
+            aria-live="assertive"
+          >
+            progress_bar 読み込まれました
+          </div>
+          <!---->
+          <div data-v-453f3451="">
+            <div class="modals"></div>
+            <div class="StudioCanvas" aria-hidden="false">
+              <div
+                data-s-a031279e-e8fb-4207-9194-42fac0b464b3=""
+                class="sd appear"
+              >
+                <header
+                  data-s-534bb210-c418-418e-a8e5-2daf6d38d4f5=""
+                  class="fixed sd appear"
+                >
+                  <a
+                    href="https://takuya4tech.github.io/progress_bar/#top"
+                    data-s-420b321f-f568-4d18-a39a-fd4a6c080568=""
+                    data-r-0_0_fc10ddac-b3ce-47dd-82fe-7687d5c83a3e_420b321f-f568-4d18-a39a-fd4a6c080568=""
+                    class="text sd appear"
+                    >Top</a
+                  >
+                  <div
+                    data-s-69854ab0-9870-4317-9f19-5125240c38f5=""
+                    class="sd appear"
+                  ></div>
+                  <a
+                    href="https://takuya4tech.github.io/progress_bar/#introduction"
+                    data-s-3e45317a-ecb3-4f44-9806-8a1b1c2efa93=""
+                    data-r-2_0_fc10ddac-b3ce-47dd-82fe-7687d5c83a3e_3e45317a-ecb3-4f44-9806-8a1b1c2efa93=""
+                    class="text sd appear"
+                    >序章</a
+                  ><a
+                    href="https://takuya4tech.github.io/progress_bar/#turn"
+                    data-s-f3ab4d6d-d79e-40f5-91ed-f174f96563e9=""
+                    data-r-3_0_fc10ddac-b3ce-47dd-82fe-7687d5c83a3e_f3ab4d6d-d79e-40f5-91ed-f174f96563e9=""
+                    class="text sd appear"
+                    >メニュー</a
+                  ><a
+                    href="https://takuya4tech.github.io/progress_bar/#conclusion"
+                    data-s-3cfb6a57-7e9f-4ed1-affd-91ac9bc121eb=""
+                    data-r-4_0_fc10ddac-b3ce-47dd-82fe-7687d5c83a3e_3cfb6a57-7e9f-4ed1-affd-91ac9bc121eb=""
+                    class="text sd appear"
+                    >アクセス</a
+                  >
+                </header>
+                <main
+                  data-s-c82c98db-59b4-4be2-a465-ed990840ba51=""
+                  class="sd appear"
+                >
+                  <div
+                    id="top"
+                    data-s-a6ef9652-5c57-4ce5-8a86-153eea8734e6=""
+                    data-r-0_1_a6ef9652-5c57-4ce5-8a86-153eea8734e6=""
+                    class="image sd"
+                  >
+                    <p
+                      data-s-2e42571d-8cf3-4aaf-87b1-46cd7432198d=""
+                      data-r-0_0_1_2e42571d-8cf3-4aaf-87b1-46cd7432198d=""
+                      class="text sd appear"
+                    >
+                      progress_bar
+                    </p>
+                    <style>
+                      .sd[data-r-0_1_a6ef9652-5c57-4ce5-8a86-153eea8734e6]:before {
+                        background-image: url("https://storage.googleapis.com/studio-design-asset-files/projects/YPqrpNX8W5/s-1569x1045_v-fms_webp_945d4840-b1f6-4668-b984-5200d64387d7.webp");
+                      }
+                    </style>
+                  </div>
+                  <div
+                    id="introduction"
+                    data-s-52c30349-bd49-418b-9afd-62bf0a1eebe8=""
+                    class="sd appear"
+                  >
+                    <p
+                      data-s-996cf4ea-7e17-499e-8b70-9d909fc8bd70=""
+                      data-r-0_1_1_996cf4ea-7e17-499e-8b70-9d909fc8bd70=""
+                      class="text sd appear"
+                    >
+                      progressとは進歩の意味。<br /><br />「店をオープンしてもなお変わり続ける店でありたい」という気持ちを込め、間借りでオープンします。<br />これからも変化し続けるカクテルの世界をご堪能ください。
+                    </p>
+                  </div>
+                  <div
+                    id="turna"
+                    data-s-2aed6e99-e70a-4dea-88b1-c22abcf2d3d0=""
+                    class="sd appear"
+                  >
+                    <div
+                      data-s-929ef19f-b219-4a94-a9f5-4605f991a6d4=""
+                      class="sd appear"
+                    >
+                      <div
+                        data-s-a3f05963-0b54-4511-9f2f-ad5309ded3fb=""
+                        data-r-0_0_2_1_a3f05963-0b54-4511-9f2f-ad5309ded3fb=""
+                        class="image sd"
+                      >
+                        <div
+                          data-s-5d615036-cc3c-4113-a282-2b84a4c30c42=""
+                          class="sd appear"
+                        >
+                          <div
+                            data-s-093d3a00-bfb9-45b7-ab82-d404cc98d4e7=""
+                            class="sd appear"
+                          ></div>
+                          <h2
+                            data-s-36125e28-ce9f-4146-9818-06f2e1db75b4=""
+                            data-r-1_0_0_0_2_1_36125e28-ce9f-4146-9818-06f2e1db75b4=""
+                            class="text sd appear"
+                          >
+                            メニュー
+                          </h2>
+                          <div
+                            data-s-7b51b475-7e0f-4f72-9f9c-608b7b02529d=""
+                            class="sd appear"
+                          ></div>
+                        </div>
+                        <p
+                          data-s-3e08098e-0e8c-49e1-a620-ff7c91159430=""
+                          data-r-1_0_0_2_1_3e08098e-0e8c-49e1-a620-ff7c91159430=""
+                          class="text sd appear"
+                        >
+                          ※メニューの詳細はお店でご覧いただけます
+                        </p>
+                        <style>
+                          .sd[data-r-0_0_2_1_a3f05963-0b54-4511-9f2f-ad5309ded3fb]:before {
+                            background-image: url("https://images.unsplash.com/photo-1541159701576-754a863fb57b?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjYzNDZ9");
+                          }
+                        </style>
+                      </div>
+                    </div>
+                    <div
+                      data-s-c5cbf98d-6a8e-4195-97fc-4a10a7e30d32=""
+                      class="sd appear"
+                    >
+                      <section
+                        id="turn"
+                        data-s-e2445f92-2076-478f-8535-a7e9b4f69452=""
+                        class="sd appear"
+                      >
+                        <div
+                          data-s-fcf6b297-a786-4f80-ba06-dd67047b5f7b=""
+                          class="sd appear"
+                        >
+                          <div
+                            data-s-6b435f37-171f-4e1e-90f9-9ffe293407ab=""
+                            class="sd appear"
+                          >
+                            <div
+                              data-s-daff6a46-3836-47a9-94c9-2f22dff4770a=""
+                              class="sd appear"
+                            >
+                              <h3
+                                data-s-402beeeb-90e0-46a3-8d17-ac66373f72f5=""
+                                data-r-0_0_0_0_0_1_2_1_402beeeb-90e0-46a3-8d17-ac66373f72f5=""
+                                class="text sd appear"
+                              >
+                                コーヒーカクテル
+                              </h3>
+                              <p
+                                data-s-99adc706-821f-4e0b-8d2d-6e24721c48c9=""
+                                data-r-1_0_0_0_0_1_2_1_99adc706-821f-4e0b-8d2d-6e24721c48c9=""
+                                class="text sd appear"
+                              >
+                                普段のお店はコーヒー屋さん。<br />「iri coffee
+                                roastery」で焙煎された豆を使用したコーヒーカクテルがおすすめです。<br />コーヒーとカクテルの調和をお楽しみください。
+                              </p>
+                            </div>
+                            <div
+                              data-s-2677ef0b-df09-4edf-aa85-19cc1b33043c=""
+                              class="sd appear"
+                            >
+                              <div
+                                data-s-8339f21c-0b4c-4f27-8e7b-9c393f490c37=""
+                                data-r-0_1_0_0_0_1_2_1_8339f21c-0b4c-4f27-8e7b-9c393f490c37=""
+                                class="image sd"
+                              >
+                                <style>
+                                  .sd[data-r-0_1_0_0_0_1_2_1_8339f21c-0b4c-4f27-8e7b-9c393f490c37]:before {
+                                    background-image: url("https://storage.googleapis.com/studio-design-asset-files/projects/YPqrpNX8W5/s-1920x1280_v-frms_webp_0db873ff-760e-43bf-be86-f46ece580953_regular.webp");
+                                  }
+                                </style>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </section>
+                    </div>
+                  </div>
+                </main>
+                <footer
+                  id="conclusion"
+                  data-s-182cf3ee-87e5-4618-9245-de97ab114199=""
+                  class="sd appear"
+                >
+                  <div
+                    data-s-18ce2ef9-895c-4f44-8bfd-cdc38ef26690=""
+                    class="sd appear"
+                  >
+                    <div
+                      data-s-4264457a-4894-4a93-b814-1f5b11766d6a=""
+                      data-r-0_0_2_fb8959a8-14b8-4598-a848-e3b7cb515bbf_4264457a-4894-4a93-b814-1f5b11766d6a=""
+                      class="image sd"
+                    >
+                      <div
+                        data-s-458d60aa-8b82-4af1-bc1b-49b0e8cb2b49=""
+                        class="sd appear"
+                      >
+                        <div
+                          data-s-a56340d2-f838-43a3-ab39-3fa569696c25=""
+                          class="sd appear"
+                        ></div>
+                        <h2
+                          data-s-903eaf4b-fbc4-4c35-9c5d-3db235131fef=""
+                          data-r-1_0_0_0_2_fb8959a8-14b8-4598-a848-e3b7cb515bbf_903eaf4b-fbc4-4c35-9c5d-3db235131fef=""
+                          class="text sd appear"
+                        >
+                          アクセス
+                        </h2>
+                        <div
+                          data-s-ef81b5d0-4119-40c8-af62-8ffb909b5067=""
+                          class="sd appear"
+                        ></div>
+                      </div>
+                      <style>
+                        .sd[data-r-0_0_2_fb8959a8-14b8-4598-a848-e3b7cb515bbf_4264457a-4894-4a93-b814-1f5b11766d6a]:before {
+                          background-image: url("https://images.unsplash.com/photo-1551901492-5f649c6bf015?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjYzNDZ9");
+                        }
+                      </style>
+                    </div>
+                  </div>
+                  <div
+                    data-s-2f190939-8e93-4dd9-869f-02e08db69743=""
+                    class="sd appear"
+                  >
+                    <div
+                      data-s-25581c04-f4f6-4c11-ad12-301aa2a65910=""
+                      class="sd appear"
+                    >
+                      <div
+                        data-s-534a92ba-07cb-432f-803c-fa689746686c=""
+                        class="sd appear"
+                      >
+                        <h3
+                          data-s-0e000373-b83b-49a6-ab6b-348cf3d95777=""
+                          data-r-0_0_0_1_2_fb8959a8-14b8-4598-a848-e3b7cb515bbf_0e000373-b83b-49a6-ab6b-348cf3d95777=""
+                          class="text sd appear"
+                        >
+                          progress_bar<br />
+                        </h3>
+                        <div
+                          data-s-9f757f7b-da36-4c3a-bff3-9bb877e49f75=""
+                          class="sd appear"
+                        >
+                          <div
+                            data-s-1a8f20e8-9cc9-4637-8613-33de17242580=""
+                            class="sd appear"
+                          >
+                            <p
+                              data-s-db7c99b1-8285-4431-8826-72b2fbe6d12b=""
+                              data-r-0_0_1_0_0_1_2_fb8959a8-14b8-4598-a848-e3b7cb515bbf_db7c99b1-8285-4431-8826-72b2fbe6d12b=""
+                              class="text sd appear"
+                            >
+                              住所 :&nbsp;〒154-0023
+                              東京都世田谷区若林４丁目２２−１８ パトリア松蔭<br />
+                            </p>
+                            <a
+                              href="https://goo.gl/maps/ZuYTnrQQKgryqoEV7"
+                              rel="noopener"
+                              target="_blank"
+                              data-s-d1893b7a-c1c5-46e1-a516-cb2b9d9ca5d5=""
+                              data-r-1_0_1_0_0_1_2_fb8959a8-14b8-4598-a848-e3b7cb515bbf_d1893b7a-c1c5-46e1-a516-cb2b9d9ca5d5=""
+                              class="text sd appear"
+                              >[MAP]</a
+                            >
+                          </div>
+                          <div
+                            data-s-9b8f6a6c-4939-42a8-b52f-7e584e34c6a8=""
+                            class="sd appear"
+                          >
+                            <p
+                              data-s-1268db16-f7bc-452d-8eec-9ca4275c3de2=""
+                              data-r-0_1_1_0_0_1_2_fb8959a8-14b8-4598-a848-e3b7cb515bbf_1268db16-f7bc-452d-8eec-9ca4275c3de2=""
+                              class="text sd appear"
+                            >
+                              営業時間 : 土曜日、日曜日 10:00 - 19:00<br />
+                            </p>
+                          </div>
+                          <div
+                            data-s-7c02ec83-d807-4d21-8789-521ad9eeef82=""
+                            class="sd appear"
+                          >
+                            <p
+                              data-s-fbf715f9-6468-4817-9fe3-7fbeae6ef479=""
+                              data-r-0_2_1_0_0_1_2_fb8959a8-14b8-4598-a848-e3b7cb515bbf_fbf715f9-6468-4817-9fe3-7fbeae6ef479=""
+                              class="text sd appear"
+                            >
+                              お問い合わせ :<br />
+                            </p>
+                            <p
+                              data-s-ab02c326-02fd-46b5-a840-94be80880f5e=""
+                              data-r-1_2_1_0_0_1_2_fb8959a8-14b8-4598-a848-e3b7cb515bbf_ab02c326-02fd-46b5-a840-94be80880f5e=""
+                              class="text sd appear"
+                            >
+                              progress.bar9.4@gmail.com
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <div
+                        data-s-b4fa3c8e-3a5e-4c52-aa5f-e83f2499e5d9=""
+                        class="sd appear"
+                      >
+                        <p
+                          data-s-b35efeb6-7b94-4a91-bb8f-eb333e4f18bd=""
+                          data-r-0_1_0_1_2_fb8959a8-14b8-4598-a848-e3b7cb515bbf_b35efeb6-7b94-4a91-bb8f-eb333e4f18bd=""
+                          class="text sd appear"
+                        >
+                          ©︎2023, progress_bar
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </footer>
+              </div>
+              <div data-v-4b268d44="" class="product-font-style">
+                <style data-v-4b268d44=""></style>
+              </div>
+              <style>
+                :root {
+                  --s-font-18b07931: しまなみ;
+                }
+              </style>
+            </div>
+          </div>
+        </div>
+        <!----><a
+          href="https://studio.design/?utm_source=/&amp;utm_medium=STUDIO%20Banner&amp;utm_campaign=STUDIO%20Banner"
+          target="_blank"
+          style="display: flex !important"
+          data-v-453f3451=""
+          data-v-ac5d8026=""
+          ><img
+            src="./progress_bar_files/banner.png"
+            alt="banner"
+            height="18"
+            width="98"
+            style="display: flex !important"
+            data-v-ac5d8026=""
+        /></a>
+      </div>
+    </div>
+    <script type="application/json" id="__NUXT_DATA__" data-ssr="true">
+      [
+        ["Reactive", 1],
+        {
+          "data": 2,
+          "state": 4,
+          "_errors": 5,
+          "serverRendered": 6,
+          "pinia": 7
+        },
+        { "dynamicData": 3 },
+        null,
+        {},
+        { "dynamicData": 3 },
+        true,
+        {
+          "cmsContentStore": 8,
+          "indexStore": 13,
+          "projectStore": 16,
+          "productStore": 29,
+          "pageHeadStore": 85,
+          "typeSquareStore": 87
+        },
+        {
+          "referenceMap": 9,
+          "listContentsMap": 10,
+          "contentMap": 11,
+          "clientLoaded": 12
+        },
+        ["Map"],
+        ["Map"],
+        ["Map"],
+        false,
+        { "routeType": 14, "host": 15 },
+        "publish",
+        "progress-bar.studio.site",
+        { "project": 17 },
+        {
+          "id": 18,
+          "name": 19,
+          "type": 20,
+          "customDomain": 21,
+          "iconImage": 21,
+          "coverImage": 22,
+          "displayBadge": 6,
+          "integrations": 23,
+          "snapshot_path": 27,
+          "snapshot_id": 28,
+          "recaptchaSiteKey": -1
+        },
+        "YPqrpNX8W5",
+        "progress_bar",
+        "web",
+        "",
+        "https://storage.googleapis.com/production-os-assets/assets/9df26394-a711-4abc-b4e8-f65606070adb",
+        [24],
+        { "integration_name": 25, "code": 26 },
+        "typesquare",
+        "unused",
+        "https://storage.googleapis.com/studio-publish/projects/YPqrpNX8W5/Va6kB898W7/",
+        "Va6kB898W7",
+        {
+          "product": 30,
+          "isLoaded": 6,
+          "selectedModalIds": 82,
+          "redirectPage": 3,
+          "isInitializedRSS": 12,
+          "pageViewMap": 83,
+          "symbolViewMap": 84
+        },
+        {
+          "breakPoints": 31,
+          "colors": 38,
+          "fonts": 39,
+          "head": 42,
+          "info": 49,
+          "pages": 56,
+          "resources": 69,
+          "symbols": 72,
+          "style": 75,
+          "styleVars": 77,
+          "enablePassword": 12
+        },
+        [32, 35],
+        { "maxWidth": 33, "name": 34 },
+        480,
+        "mobile",
+        { "maxWidth": 36, "name": 37 },
+        768,
+        "tablet",
+        [],
+        [40],
+        { "family": 41, "vendor": 25 },
+        "しまなみ",
+        { "favicon": 43, "lang": 44, "meta": 45, "title": 48 },
+        "https://storage.googleapis.com/production-os-assets/assets/07090e8d-b3c6-4f59-a308-b519c57f9529",
+        "ja",
+        { "description": 46, "og:image": 47 },
+        "主にお店紹介などに適したテンプレートです。落ち着いた雰囲気のお店の紹介などに是非ご使用ください。",
+        "https://storage.googleapis.com/production-os-assets/assets/a879ed8b-42e2-4e81-957a-a3c180850399",
+        "Green Tea",
+        {
+          "baseWidth": 50,
+          "created_at": 51,
+          "screen": 52,
+          "type": 20,
+          "updated_at": 54,
+          "version": 55
+        },
+        1280,
+        1518591100346,
+        { "height": 53, "isAutoHeight": 12, "width": 50, "workingState": 12 },
+        600,
+        1518792996878,
+        "4.1.3",
+        [57],
+        { "head": 58, "id": 63, "type": 64, "uuid": 65, "symbolIds": 66 },
+        { "title": 19, "meta": 59, "favicon": 62 },
+        { "description": 60, "og:image": 21, "robots": 61 },
+        "コーヒーカクテルにこだわる間借りバー",
+        "noindex",
+        "https://storage.googleapis.com/production-os-assets/assets/81da08b7-2cdb-4531-bd91-cd472ea7dd00",
+        "/",
+        "page",
+        "3c34b5ce-2d7b-44e6-b32b-0820d2bef715",
+        [67, 68],
+        "231d7b10-9691-4fff-a280-342346a691b4",
+        "9d5b7014-7d79-4281-b52e-81faa9f486aa",
+        { "rssList": 70, "apiList": 71, "cmsProjectId": 21 },
+        [],
+        [],
+        [73, 74],
+        { "uuid": 67 },
+        { "uuid": 68 },
+        { "fontFamily": 76 },
+        [],
+        { "fontFamily": 78 },
+        [79],
+        { "key": 80, "name": 81, "value": 41 },
+        "18b07931",
+        "見出し、本文",
+        [],
+        {},
+        ["Map"],
+        { "googleFontMap": 86, "typesquareLoaded": 12 },
+        ["Map"],
+        { "text": 88 },
+        {}
+      ]
+    </script>
+    <script>
+      window.__NUXT__ = {};
+      window.__NUXT__.config = {
+        public: {
+          apiBaseUrl: "https://api.studiodesignapp.com/api",
+          cmsApiBaseUrl: "https://api.cms.studiodesignapp.com",
+          previewBaseUrl: "https://preview.studio.site",
+          facebookAppId: "569471266584583",
+          firebaseApiKey: "AIzaSyBkjSUz89vvvl35U-EErvfHXLhsDakoNNg",
+          firebaseProjectId: "studio-7e371",
+          firebaseAuthDomain: "studio-7e371.firebaseapp.com",
+          firebaseDatabaseURL: "https://studio-7e371.firebaseio.com",
+          firebaseStorageBucket: "studio-7e371.appspot.com",
+          firebaseMessagingSenderId: "373326844567",
+          firebaseAppId: "1:389988806345:web:db757f2db74be8b3",
+          studioDomain: ".studio.site",
+          googleAnalyticsTrackingID: "UA-90080275-5",
+          studioPublishUrl: "https://storage.googleapis.com/studio-publish",
+          studioPublishIndexUrl:
+            "https://storage.googleapis.com/studio-publish-index",
+          rssApiPath: "https://rss.studiodesignapp.com/rssConverter",
+          embedSandboxDomain: ".studioiframesandbox.com",
+          apiProxyUrl:
+            "https://studio-api-proxy-rajzgb4wwq-an.a.run.app/publish",
+          isPublishSite: true,
+          isDev: false,
+        },
+        app: { baseURL: "/", buildAssetsDir: "/_nuxt/", cdnURL: "" },
+      };
+    </script>
+    <script
+      type="module"
+      src="./progress_bar_files/entry.62cd396d.js"
+      crossorigin=""
+    ></script>
+  </body>
+</html>
